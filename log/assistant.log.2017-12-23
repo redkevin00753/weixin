@@ -1,0 +1,275 @@
+2017-12-23 14:08:49,199 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-23 14:08:49,208 __init__:35 [WARNING] ======Get baidu voice token failed, Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/connection.py", line 138, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/util/connection.py", line 75, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/connectionpool.py", line 594, in urlopen
+    chunked=chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/connectionpool.py", line 350, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/connectionpool.py", line 835, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/connection.py", line 281, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/connection.py", line 147, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+requests.packages.urllib3.exceptions.NewConnectionError: <requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x10e3967b8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/adapters.py", line 423, in send
+    timeout=timeout
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/connectionpool.py", line 643, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/util/retry.py", line 363, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+requests.packages.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='openapi.baidu.com', port=443): Max retries exceeded with url: /oauth/2.0/token?client_id=YVNd3SRFPwETI4f17PuLgm4d&grant_type=client_credentials&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36 (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x10e3967b8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 32, in __init__
+    token = BaiduVoice.get_baidu_token(BasicConfig.VOICE_API_KEY, BasicConfig.VOICE_SECRET)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 147, in get_baidu_token
+    return baiduclient.get_token(params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 63, in get_token
+    raise e
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 61, in get_token
+    resp = self.get_request(BaiduUrl.token_url, params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 46, in get_request
+    raise e
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 42, in get_request
+    timeout=(connect_timeout, request_timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/adapters.py", line 487, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='openapi.baidu.com', port=443): Max retries exceeded with url: /oauth/2.0/token?client_id=YVNd3SRFPwETI4f17PuLgm4d&grant_type=client_credentials&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36 (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x10e3967b8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+
+2017-12-23 14:09:01,342 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-23 14:09:01,346 __init__:35 [WARNING] ======Get baidu voice token failed, Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/connection.py", line 138, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/util/connection.py", line 75, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/connectionpool.py", line 594, in urlopen
+    chunked=chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/connectionpool.py", line 350, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/connectionpool.py", line 835, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/connection.py", line 281, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/connection.py", line 147, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+requests.packages.urllib3.exceptions.NewConnectionError: <requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x10e2afa20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/adapters.py", line 423, in send
+    timeout=timeout
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/connectionpool.py", line 643, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/packages/urllib3/util/retry.py", line 363, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+requests.packages.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='openapi.baidu.com', port=443): Max retries exceeded with url: /oauth/2.0/token?client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&client_id=YVNd3SRFPwETI4f17PuLgm4d&grant_type=client_credentials (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x10e2afa20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 32, in __init__
+    token = BaiduVoice.get_baidu_token(BasicConfig.VOICE_API_KEY, BasicConfig.VOICE_SECRET)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 147, in get_baidu_token
+    return baiduclient.get_token(params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 63, in get_token
+    raise e
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 61, in get_token
+    resp = self.get_request(BaiduUrl.token_url, params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 46, in get_request
+    raise e
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 42, in get_request
+    timeout=(connect_timeout, request_timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/api.py", line 70, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/api.py", line 56, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/sessions.py", line 488, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/adapters.py", line 487, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='openapi.baidu.com', port=443): Max retries exceeded with url: /oauth/2.0/token?client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&client_id=YVNd3SRFPwETI4f17PuLgm4d&grant_type=client_credentials (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x10e2afa20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+
+2017-12-23 14:09:52,430 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-23 14:09:50,307 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?grant_type=client_credentials&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&client_id=YVNd3SRFPwETI4f17PuLgm4d HTTP/1.1" 200 443
+2017-12-23 14:10:10,721 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:10:11,897 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&ptc=1&token=24.bbcb8cb518d47569a1798a869499abe9.2592000.1516601390.282335-8118851 HTTP/1.1" 200 79
+2017-12-23 14:10:11,899 iscall:56 [INFO] err_msg: speech quality error.
+2017-12-23 14:10:11,900 iscall:57 [DEBUG] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 46, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-23 14:10:28,956 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:10:29,873 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&ptc=1&token=24.bbcb8cb518d47569a1798a869499abe9.2592000.1516601390.282335-8118851 HTTP/1.1" 200 79
+2017-12-23 14:10:29,874 iscall:56 [INFO] err_msg: speech quality error.
+2017-12-23 14:10:29,874 iscall:57 [DEBUG] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 46, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-23 14:10:36,900 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:10:37,887 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&ptc=1&token=24.bbcb8cb518d47569a1798a869499abe9.2592000.1516601390.282335-8118851 HTTP/1.1" 200 78
+2017-12-23 14:10:37,888 iscall:56 [INFO] err_msg: speech quality error.
+2017-12-23 14:10:37,889 iscall:57 [DEBUG] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 46, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-23 14:10:42,910 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:10:43,903 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&ptc=1&token=24.bbcb8cb518d47569a1798a869499abe9.2592000.1516601390.282335-8118851 HTTP/1.1" 200 78
+2017-12-23 14:10:43,904 iscall:56 [INFO] err_msg: speech quality error.
+2017-12-23 14:10:43,904 iscall:57 [DEBUG] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 46, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-23 14:11:03,969 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:11:04,902 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&ptc=1&token=24.bbcb8cb518d47569a1798a869499abe9.2592000.1516601390.282335-8118851 HTTP/1.1" 200 120
+2017-12-23 14:11:04,904 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-23 14:11:04,906 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-23 14:11:05,872 initialize:163 [DEBUG] Loading model cost 0.967 seconds.
+2017-12-23 14:11:05,873 initialize:164 [DEBUG] Prefix dict has been built succesfully.
+2017-12-23 14:11:05,879 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-23 14:11:06,059 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?spd=5&tok=24.bbcb8cb518d47569a1798a869499abe9.2592000.1516601390.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E8%AF%B7%E8%AF%B4&lan=zh&vol=5&ctp=1&per=0&pit=5 HTTP/1.1" 200 1584
+2017-12-23 14:11:12,933 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:11:15,849 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&ptc=1&token=24.bbcb8cb518d47569a1798a869499abe9.2592000.1516601390.282335-8118851 HTTP/1.1" 200 79
+2017-12-23 14:11:15,851 run:104 [INFO] err_msg: speech quality error.
+2017-12-23 14:11:15,851 run:105 [DEBUG] ======run failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 98, in run
+    results = self.bv.asr(BasicConfig.INPUT_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-23 14:11:29,904 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:11:31,201 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&ptc=1&token=24.bbcb8cb518d47569a1798a869499abe9.2592000.1516601390.282335-8118851 HTTP/1.1" 200 77
+2017-12-23 14:11:31,202 iscall:56 [INFO] err_msg: speech quality error.
+2017-12-23 14:11:31,202 iscall:57 [DEBUG] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 46, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-23 14:11:34,215 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:11:35,250 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&ptc=1&token=24.bbcb8cb518d47569a1798a869499abe9.2592000.1516601390.282335-8118851 HTTP/1.1" 200 79
+2017-12-23 14:11:35,252 iscall:56 [INFO] err_msg: speech quality error.
+2017-12-23 14:11:35,252 iscall:57 [DEBUG] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 46, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-23 14:11:45,339 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-23 14:11:45,514 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?grant_type=client_credentials&client_id=YVNd3SRFPwETI4f17PuLgm4d&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36 HTTP/1.1" 200 443
+2017-12-23 14:11:51,909 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:11:53,022 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851 HTTP/1.1" 200 119
+2017-12-23 14:11:53,024 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-23 14:11:53,026 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-23 14:11:54,137 initialize:163 [DEBUG] Loading model cost 1.113 seconds.
+2017-12-23 14:11:54,137 initialize:164 [DEBUG] Prefix dict has been built succesfully.
+2017-12-23 14:11:56,147 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:11:57,813 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851 HTTP/1.1" 200 119
+2017-12-23 14:12:00,828 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:12:01,736 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851 HTTP/1.1" 200 120
+2017-12-23 14:12:01,739 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-23 14:12:01,895 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&lan=zh&ctp=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&pit=5&per=0&tok=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851&tex=%E6%82%A8%E8%AF%B4 HTTP/1.1" 200 1512
+2017-12-23 14:12:06,619 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:12:08,917 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851 HTTP/1.1" 200 129
+2017-12-23 14:12:08,919 process:89 [INFO] function is weather_today , data is 哼今天天气，
+2017-12-23 14:12:08,920 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): way.jd.com
+2017-12-23 14:12:09,233 _make_request:400 [DEBUG] https://way.jd.com:443 "GET /jisuapi/weather?city=%E5%A4%A7%E8%BF%9E&appkey=b7e7629e7695327c3bbe32e4a4e7a7f2 HTTP/1.1" 200 5287
+2017-12-23 14:12:09,237 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-23 14:12:10,008 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&lan=zh&ctp=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&pit=5&per=0&tok=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851&tex=%E4%BB%8A%E6%97%A5%E5%A4%A7%E8%BF%9E%E5%A4%A9%E6%B0%94%EF%BC%8C%E6%99%B4%EF%BC%8C%E6%B8%A9%E5%BA%A6%E8%B4%9F1%E5%88%B08%E6%91%84%E6%B0%8F%E5%BA%A6%EF%BC%8C%E6%B9%BF%E5%BA%A639%EF%BC%8C%E7%A9%BA%E6%B0%94%E8%B4%A8%E9%87%8F%E4%BB%A4%E4%BA%BA%E6%BB%A1%E6%84%8F%EF%BC%8C%E5%9F%BA%E6%9C%AC%E6%97%A0%E7%A9%BA%E6%B0%94%E6%B1%A1%E6%9F%93%E3%80%82 HTTP/1.1" 200 19944
+2017-12-23 14:12:23,718 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:12:24,777 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851 HTTP/1.1" 200 120
+2017-12-23 14:12:24,780 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-23 14:12:24,945 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&lan=zh&ctp=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&pit=5&per=0&tok=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851&tex=%E6%82%A8%E8%AF%B4 HTTP/1.1" 200 1512
+2017-12-23 14:12:29,155 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:12:31,264 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851 HTTP/1.1" 200 129
+2017-12-23 14:12:31,266 process:89 [INFO] function is say_time , data is 现在几点了，
+2017-12-23 14:12:31,268 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-23 14:12:31,488 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&lan=zh&ctp=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&pit=5&per=0&tok=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851&tex=%E7%8E%B0%E5%9C%A8%E6%97%B6%E5%88%BB%EF%BC%8C14%E7%82%B912%E5%88%86 HTTP/1.1" 200 5544
+2017-12-23 14:12:38,286 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:12:39,435 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851 HTTP/1.1" 200 79
+2017-12-23 14:12:39,437 iscall:56 [INFO] err_msg: speech quality error.
+2017-12-23 14:12:39,439 iscall:57 [DEBUG] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 46, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-23 14:12:41,452 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:12:42,828 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851 HTTP/1.1" 200 116
+2017-12-23 14:12:47,851 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:12:49,033 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851 HTTP/1.1" 200 119
+2017-12-23 14:12:49,036 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-23 14:12:49,184 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&lan=zh&ctp=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&pit=5&per=0&tok=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851&tex=%E6%82%A8%E8%AF%B4 HTTP/1.1" 200 1512
+2017-12-23 14:12:54,202 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-23 14:12:56,865 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851 HTTP/1.1" 200 132
+2017-12-23 14:12:56,867 process:89 [INFO] function is default , data is 哎呀玩着吧你，
+2017-12-23 14:12:56,868 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-23 14:12:57,357 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E5%93%8E%E5%91%80%E7%8E%A9%E7%9D%80%E5%90%A7%E4%BD%A0%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-23 14:12:57,360 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-23 14:12:57,515 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&lan=zh&ctp=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&pit=5&per=0&tok=24.1a0dacf703392f1dcfedf5c037224f4f.2592000.1516601505.282335-8118851&tex=%E5%AF%B9%EF%BC%8C%E9%80%97%E7%8B%97%E5%91%A2 HTTP/1.1" 200 2736

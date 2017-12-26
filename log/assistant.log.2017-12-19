@@ -1,0 +1,31 @@
+2017-12-20 00:02:54,124 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-20 00:02:54,382 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&grant_type=client_credentials&client_id=YVNd3SRFPwETI4f17PuLgm4d HTTP/1.1" 200 441
+2017-12-20 00:02:54,397 voicedetect:128 [DEBUG] start listing ....
+2017-12-20 00:02:55,556 voicedetect:138 [INFO] Voice detected ....
+2017-12-20 00:02:55,954 voicedetect:149 [DEBUG] done record voice ....
+2017-12-20 00:02:56,091 iscall:48 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinPI/handler.py", line 45, in iscall
+    results = self.bv.asr(BasicConfig.INPUT_NAME)
+  File "/Users/yangli/git/kevinPI/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinPI/library/clients.py", line 90, in asr
+    url = concat_url(BaiduUrl.asr_url, params)
+  File "/Users/yangli/git/kevinPI/library/utils.py", line 27, in concat_url
+    return url + '?' + urllib.urlencode(params)
+AttributeError: module 'urllib' has no attribute 'urlencode'
+
+2017-12-20 00:02:56,092 voicedetect:128 [DEBUG] start listing ....
+2017-12-20 00:03:30,666 voicedetect:138 [INFO] Voice detected ....
+2017-12-20 00:03:30,851 voicedetect:149 [DEBUG] done record voice ....
+2017-12-20 00:03:30,986 iscall:48 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinPI/handler.py", line 45, in iscall
+    results = self.bv.asr(BasicConfig.INPUT_NAME)
+  File "/Users/yangli/git/kevinPI/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinPI/library/clients.py", line 90, in asr
+    url = concat_url(BaiduUrl.asr_url, params)
+  File "/Users/yangli/git/kevinPI/library/utils.py", line 27, in concat_url
+    return url + '?' + urllib.urlencode(params)
+AttributeError: module 'urllib' has no attribute 'urlencode'
+
+2017-12-20 00:03:30,987 voicedetect:128 [DEBUG] start listing ....

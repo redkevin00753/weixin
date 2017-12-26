@@ -1,0 +1,2023 @@
+2017-12-21 21:48:45,708 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 21:48:45,825 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?grant_type=client_credentials&client_id=YVNd3SRFPwETI4f17PuLgm4d&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36 HTTP/1.1" 200 442
+2017-12-21 21:48:51,240 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 21:48:51,475 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?lan=zh&spd=5&per=0&ctp=1&tok=24.1df7b278861ce65789ad28d49c0f39e0.2592000.1516456125.282335-8118851&tex=%E5%90%AF%E5%8A%A8%E6%88%90%E5%8A%9F&pit=5&vol=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 2304
+2017-12-21 21:48:53,665 loop:114 [INFO] detected
+2017-12-21 21:48:53,668 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 21:48:54,815 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&token=24.1df7b278861ce65789ad28d49c0f39e0.2592000.1516456125.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 120
+2017-12-21 21:48:58,832 loop:114 [INFO] detected
+2017-12-21 21:48:58,834 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 21:48:59,730 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&token=24.1df7b278861ce65789ad28d49c0f39e0.2592000.1516456125.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 79
+2017-12-21 21:48:59,731 loop:118 [INFO] err_msg: speech quality error.
+2017-12-21 22:00:16,913 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:00:17,201 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_id=YVNd3SRFPwETI4f17PuLgm4d&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&grant_type=client_credentials HTTP/1.1" 200 441
+2017-12-21 22:00:25,631 detected:68 [INFO] detected
+2017-12-21 22:00:25,635 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:00:27,351 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.ccf1d7b49e501920f9b6ee854e095efb.2592000.1516456816.282335-8118851&ptc=1&lan=zh HTTP/1.1" 200 117
+2017-12-21 22:00:27,352 detected:73 [INFO] wait for next
+2017-12-21 22:00:30,362 detected:68 [INFO] detected
+2017-12-21 22:00:30,365 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:00:31,549 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.ccf1d7b49e501920f9b6ee854e095efb.2592000.1516456816.282335-8118851&ptc=1&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:01:10,361 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:01:10,700 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_id=YVNd3SRFPwETI4f17PuLgm4d&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&grant_type=client_credentials HTTP/1.1" 200 441
+2017-12-21 22:01:20,135 detected:68 [INFO] detected
+2017-12-21 22:01:20,139 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:01:21,316 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:01:21,321 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:01:21,500 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E5%93%88%E5%93%88%E5%93%88%EF%BC%8C%E6%88%91%E6%89%8D%E4%B8%8D%E5%8F%AB%E7%88%B9&spd=5&tok=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&vol=5&lan=zh&pit=5&ctp=1&per=0 HTTP/1.1" 200 4608
+2017-12-21 22:01:23,913 recordmicwav:20 [DEBUG] record record.wav
+2017-12-21 22:01:25,526 recordmicwav:37 [DEBUG] done
+2017-12-21 22:01:25,529 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:01:26,803 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 79
+2017-12-21 22:01:26,807 run:88 [WARNING] ======run failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 83, in run
+    results = self.bv.asr(BasicConfig.INPUT_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:01:26,808 detected:73 [INFO] wait for next
+2017-12-21 22:01:27,813 detected:68 [INFO] detected
+2017-12-21 22:01:27,816 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:01:28,587 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 126
+2017-12-21 22:01:28,588 detected:73 [INFO] wait for next
+2017-12-21 22:01:37,622 detected:68 [INFO] detected
+2017-12-21 22:01:37,625 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:01:38,724 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:01:38,728 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:01:38,880 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E5%B9%B2%E4%BB%80%E4%B9%88%E5%95%8A%EF%BC%8C%E7%88%B9&spd=5&tok=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&vol=5&lan=zh&pit=5&ctp=1&per=0 HTTP/1.1" 200 2808
+2017-12-21 22:01:40,288 recordmicwav:20 [DEBUG] record record.wav
+2017-12-21 22:01:41,695 recordmicwav:37 [DEBUG] done
+2017-12-21 22:01:41,698 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:01:43,544 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 79
+2017-12-21 22:01:43,546 run:88 [WARNING] ======run failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 83, in run
+    results = self.bv.asr(BasicConfig.INPUT_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:01:43,546 detected:73 [INFO] wait for next
+2017-12-21 22:01:44,550 detected:68 [INFO] detected
+2017-12-21 22:01:44,553 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:01:45,553 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:01:45,554 detected:73 [INFO] wait for next
+2017-12-21 22:01:50,570 detected:68 [INFO] detected
+2017-12-21 22:01:50,572 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:01:51,912 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:01:51,915 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:01:52,094 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E7%88%B6%E4%BA%B2%E5%A4%A7%E4%BA%BA%E8%AF%B7%E8%AF%B4&spd=5&tok=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&vol=5&lan=zh&pit=5&ctp=1&per=0 HTTP/1.1" 200 3384
+2017-12-21 22:01:53,806 recordmicwav:20 [DEBUG] record record.wav
+2017-12-21 22:01:55,622 recordmicwav:37 [DEBUG] done
+2017-12-21 22:01:55,626 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:01:57,873 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 128
+2017-12-21 22:01:57,875 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-21 22:01:57,878 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-21 22:01:58,856 initialize:163 [DEBUG] Loading model cost 0.981 seconds.
+2017-12-21 22:01:58,856 initialize:164 [DEBUG] Prefix dict has been built succesfully.
+2017-12-21 22:01:58,857 default:95 [DEBUG] turing run
+2017-12-21 22:01:58,858 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:01:59,174 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E8%AF%B7%E8%AF%B4%EF%BC%8C%E5%A4%A9%E6%B0%94%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:01:59,176 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:01:59,512 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E8%AF%B7%E9%97%AE%E4%BD%A0%E6%83%B3%E6%9F%A5%E8%AF%A2%E5%93%AA%E4%B8%AA%E5%9F%8E%E5%B8%82&spd=5&tok=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&vol=5&lan=zh&pit=5&ctp=1&per=0 HTTP/1.1" 200 5904
+2017-12-21 22:02:02,481 detected:73 [INFO] wait for next
+2017-12-21 22:02:03,486 detected:68 [INFO] detected
+2017-12-21 22:02:03,489 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:02:05,041 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:02:05,042 detected:73 [INFO] wait for next
+2017-12-21 22:02:06,047 detected:68 [INFO] detected
+2017-12-21 22:02:06,050 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:02:07,251 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 79
+2017-12-21 22:02:07,252 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:02:07,252 detected:73 [INFO] wait for next
+2017-12-21 22:02:12,268 detected:68 [INFO] detected
+2017-12-21 22:02:12,271 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:02:13,363 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 79
+2017-12-21 22:02:13,364 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:02:13,365 detected:73 [INFO] wait for next
+2017-12-21 22:02:16,371 detected:68 [INFO] detected
+2017-12-21 22:02:16,375 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:02:17,552 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:02:17,555 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:02:17,793 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E5%93%88%E5%93%88%E5%93%88%EF%BC%8C%E6%88%91%E6%89%8D%E4%B8%8D%E5%8F%AB%E7%88%B9&spd=5&tok=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&vol=5&lan=zh&pit=5&ctp=1&per=0 HTTP/1.1" 200 4608
+2017-12-21 22:02:20,108 recordmicwav:20 [DEBUG] record record.wav
+2017-12-21 22:02:22,331 recordmicwav:37 [DEBUG] done
+2017-12-21 22:02:22,334 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:02:24,190 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 132
+2017-12-21 22:02:24,193 default:95 [DEBUG] turing run
+2017-12-21 22:02:24,195 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:02:24,497 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E4%B8%A4%E5%A4%A9%EF%BC%8C%E5%87%A0%E7%82%B9%E4%BA%86%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:02:24,500 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:02:24,692 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E4%BA%94%E7%82%B9%E5%B7%A6%E5%8F%B3%EF%BC%8C%E6%98%8E%E5%A4%A9%E8%BF%98%E6%9C%89&spd=5&tok=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&vol=5&lan=zh&pit=5&ctp=1&per=0 HTTP/1.1" 200 4608
+2017-12-21 22:02:27,007 detected:73 [INFO] wait for next
+2017-12-21 22:02:28,014 detected:68 [INFO] detected
+2017-12-21 22:02:28,018 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:02:29,515 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:02:29,516 detected:73 [INFO] wait for next
+2017-12-21 22:02:38,541 detected:68 [INFO] detected
+2017-12-21 22:02:38,544 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:02:39,755 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:02:39,757 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:02:39,963 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E7%88%B6%E4%BA%B2%E5%A4%A7%E4%BA%BA%E8%AF%B7%E8%AF%B4&spd=5&tok=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&vol=5&lan=zh&pit=5&ctp=1&per=0 HTTP/1.1" 200 3384
+2017-12-21 22:02:41,675 recordmicwav:20 [DEBUG] record record.wav
+2017-12-21 22:02:43,084 recordmicwav:37 [DEBUG] done
+2017-12-21 22:02:43,089 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:02:44,670 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 118
+2017-12-21 22:02:44,672 default:95 [DEBUG] turing run
+2017-12-21 22:02:44,673 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:02:44,931 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E8%AF%B7%E8%AF%B4%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:02:44,934 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:02:45,101 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E7%82%B9%E3%80%80%E5%88%AB%E7%9A%84&spd=5&tok=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&vol=5&lan=zh&pit=5&ctp=1&per=0 HTTP/1.1" 200 1728
+2017-12-21 22:02:45,983 detected:73 [INFO] wait for next
+2017-12-21 22:02:46,987 detected:68 [INFO] detected
+2017-12-21 22:02:46,991 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:02:48,219 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 122
+2017-12-21 22:02:48,220 detected:73 [INFO] wait for next
+2017-12-21 22:02:49,227 detected:68 [INFO] detected
+2017-12-21 22:02:49,229 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:02:50,098 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.9c695661704d02ac5c2060f3e820d9c2.2592000.1516456870.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 79
+2017-12-21 22:02:50,099 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:02:50,099 detected:73 [INFO] wait for next
+2017-12-21 22:06:59,567 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:06:59,804 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_id=YVNd3SRFPwETI4f17PuLgm4d&grant_type=client_credentials&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36 HTTP/1.1" 200 443
+2017-12-21 22:07:11,227 detected:68 [INFO] detected
+2017-12-21 22:07:11,230 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:07:12,404 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 120
+2017-12-21 22:07:12,408 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:07:12,626 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E6%82%A8%E8%AF%B4&lan=zh&ctp=1&tok=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&vol=5&pit=5&spd=5&per=0&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 1512
+2017-12-21 22:07:13,503 recordmicwav:20 [DEBUG] record record.wav
+2017-12-21 22:07:14,914 recordmicwav:37 [DEBUG] done
+2017-12-21 22:07:14,917 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:07:16,545 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 119
+2017-12-21 22:07:16,546 run:84 [INFO] 您说，
+2017-12-21 22:07:16,546 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-21 22:07:16,549 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-21 22:07:17,551 initialize:163 [DEBUG] Loading model cost 1.005 seconds.
+2017-12-21 22:07:17,551 initialize:164 [DEBUG] Prefix dict has been built succesfully.
+2017-12-21 22:07:17,551 default:96 [DEBUG] turing run
+2017-12-21 22:07:17,553 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:07:17,757 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?key=0426cf5db84b7c46091c5390288cf39b&info=%E6%82%A8%E8%AF%B4%EF%BC%8C HTTP/1.1" 200 None
+2017-12-21 22:07:17,760 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:07:18,077 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E6%88%91%E4%BC%9A%E4%B8%8D%E5%A5%BD%E6%84%8F%E6%80%9D%E7%9A%84%E5%91%80&lan=zh&ctp=1&tok=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&vol=5&pit=5&spd=5&per=0&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 3312
+2017-12-21 22:07:19,746 detected:73 [INFO] wait for next
+2017-12-21 22:07:20,752 detected:68 [INFO] detected
+2017-12-21 22:07:20,755 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:07:22,379 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 120
+2017-12-21 22:07:22,380 detected:73 [INFO] wait for next
+2017-12-21 22:07:27,402 detected:68 [INFO] detected
+2017-12-21 22:07:27,404 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:07:28,155 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 78
+2017-12-21 22:07:28,161 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:07:28,161 detected:73 [INFO] wait for next
+2017-12-21 22:07:59,274 detected:68 [INFO] detected
+2017-12-21 22:07:59,277 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:08:00,270 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 79
+2017-12-21 22:08:00,271 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:08:00,272 detected:73 [INFO] wait for next
+2017-12-21 22:08:01,277 detected:68 [INFO] detected
+2017-12-21 22:08:01,280 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:08:02,215 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 79
+2017-12-21 22:08:02,216 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:08:02,216 detected:73 [INFO] wait for next
+2017-12-21 22:08:04,228 detected:68 [INFO] detected
+2017-12-21 22:08:04,230 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:08:05,185 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 79
+2017-12-21 22:08:05,186 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:08:05,187 detected:73 [INFO] wait for next
+2017-12-21 22:08:26,259 detected:68 [INFO] detected
+2017-12-21 22:08:26,263 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:08:27,406 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 79
+2017-12-21 22:08:27,407 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:08:27,407 detected:73 [INFO] wait for next
+2017-12-21 22:08:43,466 detected:68 [INFO] detected
+2017-12-21 22:08:43,469 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:08:44,711 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 79
+2017-12-21 22:08:44,713 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:08:44,713 detected:73 [INFO] wait for next
+2017-12-21 22:09:58,969 detected:68 [INFO] detected
+2017-12-21 22:09:58,972 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:10:00,385 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 119
+2017-12-21 22:10:00,388 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:10:00,539 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E5%90%AC%E7%9D%80%E5%91%A2%EF%BC%8C%E7%88%B8%E7%88%B8&lan=zh&ctp=1&tok=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&vol=5&pit=5&spd=5&per=0&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 2808
+2017-12-21 22:10:02,058 recordmicwav:20 [DEBUG] record record.wav
+2017-12-21 22:10:08,133 recordmicwav:37 [DEBUG] done
+2017-12-21 22:10:08,137 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:10:13,493 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 171
+2017-12-21 22:10:13,494 run:84 [INFO] 老公垃圾股垃圾股垃圾垃圾垃圾垃不垃圾的，
+2017-12-21 22:10:13,495 default:96 [DEBUG] turing run
+2017-12-21 22:10:13,496 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:10:13,902 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?key=0426cf5db84b7c46091c5390288cf39b&info=%E8%80%81%E5%85%AC%E5%9E%83%E5%9C%BE%E8%82%A1%E5%9E%83%E5%9C%BE%E8%82%A1%E5%9E%83%E5%9C%BE%E5%9E%83%E5%9C%BE%E5%9E%83%E5%9C%BE%E5%9E%83%E4%B8%8D%E5%9E%83%E5%9C%BE%E7%9A%84%EF%BC%8C HTTP/1.1" 200 None
+2017-12-21 22:10:13,905 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:10:14,114 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E6%88%91%E7%89%B9%E5%88%AB%E5%96%9C%E6%AC%A2%E5%92%8C%E4%BD%A0%E8%81%8A%E5%A4%A9%E5%91%A2&lan=zh&ctp=1&tok=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&vol=5&pit=5&spd=5&per=0&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 4464
+2017-12-21 22:10:16,370 detected:73 [INFO] wait for next
+2017-12-21 22:10:17,376 detected:68 [INFO] detected
+2017-12-21 22:10:17,380 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:10:18,510 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 123
+2017-12-21 22:10:18,511 detected:73 [INFO] wait for next
+2017-12-21 22:10:25,536 detected:68 [INFO] detected
+2017-12-21 22:10:25,539 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:10:26,246 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 79
+2017-12-21 22:10:26,247 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:10:26,248 detected:73 [INFO] wait for next
+2017-12-21 22:10:28,256 detected:68 [INFO] detected
+2017-12-21 22:10:28,260 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:10:29,467 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 79
+2017-12-21 22:10:29,468 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:10:29,469 detected:73 [INFO] wait for next
+2017-12-21 22:10:33,489 detected:68 [INFO] detected
+2017-12-21 22:10:33,491 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:10:34,895 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 120
+2017-12-21 22:10:34,896 detected:73 [INFO] wait for next
+2017-12-21 22:10:37,907 detected:68 [INFO] detected
+2017-12-21 22:10:37,910 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:10:38,902 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 118
+2017-12-21 22:10:38,903 detected:73 [INFO] wait for next
+2017-12-21 22:10:40,914 detected:68 [INFO] detected
+2017-12-21 22:10:40,917 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:10:42,165 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 118
+2017-12-21 22:10:42,168 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:10:42,364 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E6%82%A8%E8%AF%B4&lan=zh&ctp=1&tok=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&vol=5&pit=5&spd=5&per=0&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 1512
+2017-12-21 22:10:43,159 recordmicwav:20 [DEBUG] record record.wav
+2017-12-21 22:10:44,570 recordmicwav:37 [DEBUG] done
+2017-12-21 22:10:44,573 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:10:46,261 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 120
+2017-12-21 22:10:46,262 run:84 [INFO] 您说，
+2017-12-21 22:10:46,263 default:96 [DEBUG] turing run
+2017-12-21 22:10:46,264 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:10:46,481 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?key=0426cf5db84b7c46091c5390288cf39b&info=%E6%82%A8%E8%AF%B4%EF%BC%8C HTTP/1.1" 200 None
+2017-12-21 22:10:46,484 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:10:46,687 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E4%BD%A0%E6%AC%BA%E8%B4%9F%E6%88%91%EF%BC%8C%E6%88%91%E4%B8%8D%E7%90%86%E4%BD%A0%E4%BA%86&lan=zh&ctp=1&tok=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&vol=5&pit=5&spd=5&per=0&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 4536
+2017-12-21 22:10:48,979 detected:73 [INFO] wait for next
+2017-12-21 22:11:04,029 detected:68 [INFO] detected
+2017-12-21 22:11:04,036 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:11:04,898 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 79
+2017-12-21 22:11:04,899 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:11:04,900 detected:73 [INFO] wait for next
+2017-12-21 22:11:06,910 detected:68 [INFO] detected
+2017-12-21 22:11:06,912 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:11:08,343 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 78
+2017-12-21 22:11:08,344 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:11:08,345 detected:73 [INFO] wait for next
+2017-12-21 22:11:23,402 detected:68 [INFO] detected
+2017-12-21 22:11:23,409 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:11:24,187 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 79
+2017-12-21 22:11:24,190 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:11:24,190 detected:73 [INFO] wait for next
+2017-12-21 22:11:44,259 detected:68 [INFO] detected
+2017-12-21 22:11:44,262 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:11:45,244 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.b3a3c6ca7868d448fdb59587e4e97c24.2592000.1516457219.282335-8118851&ptc=1 HTTP/1.1" 200 79
+2017-12-21 22:11:45,245 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:11:45,245 detected:73 [INFO] wait for next
+2017-12-21 22:11:53,462 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:11:53,698 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?grant_type=client_credentials&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&client_id=YVNd3SRFPwETI4f17PuLgm4d HTTP/1.1" 200 439
+2017-12-21 22:12:02,155 loop:83 [INFO] detected
+2017-12-21 22:12:02,160 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:12:03,062 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.87ba38a84d91aefcc7d7ed94727ee768.2592000.1516457513.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:12:03,064 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:12:03,206 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?pit=5&spd=5&ctp=1&vol=5&tex=%E6%82%A8%E8%AF%B4&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&tok=24.87ba38a84d91aefcc7d7ed94727ee768.2592000.1516457513.282335-8118851&per=0 HTTP/1.1" 200 1512
+2017-12-21 22:12:04,084 recordmicwav:20 [DEBUG] record record.wav
+2017-12-21 22:12:07,513 recordmicwav:37 [DEBUG] done
+2017-12-21 22:12:07,516 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:12:10,258 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.87ba38a84d91aefcc7d7ed94727ee768.2592000.1516457513.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 143
+2017-12-21 22:12:10,259 run:84 [INFO] 一二三四五六七八九十，
+2017-12-21 22:12:10,259 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-21 22:12:10,262 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-21 22:12:11,237 initialize:163 [DEBUG] Loading model cost 0.978 seconds.
+2017-12-21 22:12:11,237 initialize:164 [DEBUG] Prefix dict has been built succesfully.
+2017-12-21 22:12:11,237 default:96 [DEBUG] turing run
+2017-12-21 22:12:11,239 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:12:11,451 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E4%B8%80%E4%BA%8C%E4%B8%89%E5%9B%9B%E4%BA%94%E5%85%AD%E4%B8%83%E5%85%AB%E4%B9%9D%E5%8D%81%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:12:11,454 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:12:11,766 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?pit=5&spd=5&ctp=1&vol=5&tex=%E4%BD%A0%E6%98%AF%E6%83%B3%E8%AE%A9%E6%88%91%E5%86%8D%E4%B9%9F%E4%B8%8D%E8%83%BD%E4%B8%8E%E4%BD%A0%E8%81%8A%E5%A4%A9%E4%B9%88%E3%80%82%E3%80%82%E3%80%82&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&tok=24.87ba38a84d91aefcc7d7ed94727ee768.2592000.1516457513.282335-8118851&per=0 HTTP/1.1" 200 6624
+2017-12-21 22:12:15,112 loop:88 [INFO] wait for next
+2017-12-21 22:12:16,119 loop:83 [INFO] detected
+2017-12-21 22:12:16,122 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:12:17,602 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.87ba38a84d91aefcc7d7ed94727ee768.2592000.1516457513.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:12:17,604 loop:88 [INFO] wait for next
+2017-12-21 22:14:41,129 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:14:41,363 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_id=YVNd3SRFPwETI4f17PuLgm4d&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&grant_type=client_credentials HTTP/1.1" 200 445
+2017-12-21 22:14:50,789 loop:83 [INFO] detected
+2017-12-21 22:14:50,793 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:14:51,958 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.6cfce3f0ad532b2731a5f6e0aa4e6ca1.2592000.1516457681.282335-8118851 HTTP/1.1" 200 120
+2017-12-21 22:14:51,962 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:14:52,156 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E7%88%B6%E4%BA%B2%E5%A4%A7%E4%BA%BA%EF%BC%8C%E6%88%91%E6%9D%A5%E4%BA%86&tok=24.6cfce3f0ad532b2731a5f6e0aa4e6ca1.2592000.1516457681.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&spd=5&vol=5&ctp=1&pit=5&per=0 HTTP/1.1" 200 3960
+2017-12-21 22:14:54,150 recordmicwav:20 [DEBUG] record record.wav
+2017-12-21 22:14:57,369 recordmicwav:37 [DEBUG] done
+2017-12-21 22:14:57,372 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:15:00,726 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.6cfce3f0ad532b2731a5f6e0aa4e6ca1.2592000.1516457681.282335-8118851 HTTP/1.1" 200 132
+2017-12-21 22:15:00,728 run:84 [INFO] 五六七八九十，
+2017-12-21 22:15:00,728 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-21 22:15:00,730 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-21 22:15:01,730 initialize:163 [DEBUG] Loading model cost 1.002 seconds.
+2017-12-21 22:15:01,730 initialize:164 [DEBUG] Prefix dict has been built succesfully.
+2017-12-21 22:15:01,730 default:97 [DEBUG] turing run
+2017-12-21 22:15:01,732 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:15:01,955 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?key=0426cf5db84b7c46091c5390288cf39b&info=%E4%BA%94%E5%85%AD%E4%B8%83%E5%85%AB%E4%B9%9D%E5%8D%81%EF%BC%8C HTTP/1.1" 200 None
+2017-12-21 22:15:01,957 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:15:02,262 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tex=%E4%BD%A0%E6%98%AF%E6%83%B3%E8%AE%A9%E6%88%91%E5%86%8D%E4%B9%9F%E4%B8%8D%E8%83%BD%E4%B8%8E%E4%BD%A0%E8%81%8A%E5%A4%A9%E4%B9%88%E3%80%82%E3%80%82%E3%80%82&tok=24.6cfce3f0ad532b2731a5f6e0aa4e6ca1.2592000.1516457681.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&spd=5&vol=5&ctp=1&pit=5&per=0 HTTP/1.1" 200 6624
+2017-12-21 22:15:06,611 loop:88 [INFO] wait for next
+2017-12-21 22:15:09,626 loop:83 [INFO] detected
+2017-12-21 22:15:09,629 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:15:10,352 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.6cfce3f0ad532b2731a5f6e0aa4e6ca1.2592000.1516457681.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:15:10,357 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:15:10,358 loop:88 [INFO] wait for next
+2017-12-21 22:15:18,387 loop:83 [INFO] detected
+2017-12-21 22:15:18,390 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:15:19,158 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.6cfce3f0ad532b2731a5f6e0aa4e6ca1.2592000.1516457681.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:15:19,160 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:15:19,160 loop:88 [INFO] wait for next
+2017-12-21 22:17:49,295 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:17:49,524 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&grant_type=client_credentials&client_id=YVNd3SRFPwETI4f17PuLgm4d HTTP/1.1" 200 440
+2017-12-21 22:17:57,976 loop:83 [INFO] detected
+2017-12-21 22:17:57,979 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:17:58,902 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.2e6eed0fd21e3d6d3c81b9ec7e87ad43.2592000.1516457869.282335-8118851&ptc=1 HTTP/1.1" 200 78
+2017-12-21 22:17:58,904 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:17:58,904 loop:88 [INFO] wait for next
+2017-12-21 22:18:01,916 loop:83 [INFO] detected
+2017-12-21 22:18:01,918 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:18:02,999 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.2e6eed0fd21e3d6d3c81b9ec7e87ad43.2592000.1516457869.282335-8118851&ptc=1 HTTP/1.1" 200 119
+2017-12-21 22:18:03,001 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:18:03,160 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?per=0&lan=zh&spd=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E5%B9%B2%E4%BB%80%E4%B9%88%E5%95%8A%EF%BC%8C%E7%88%B9&vol=5&tok=24.2e6eed0fd21e3d6d3c81b9ec7e87ad43.2592000.1516457869.282335-8118851&pit=5&ctp=1 HTTP/1.1" 200 2808
+2017-12-21 22:18:04,663 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:18:07,472 recordmicwav:37 [INFO] done
+2017-12-21 22:18:07,475 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:18:08,799 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.2e6eed0fd21e3d6d3c81b9ec7e87ad43.2592000.1516457869.282335-8118851&ptc=1 HTTP/1.1" 200 144
+2017-12-21 22:18:08,800 run:84 [INFO] 一二三四五六七八九十，
+2017-12-21 22:18:08,800 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-21 22:18:08,802 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-21 22:18:09,777 initialize:163 [DEBUG] Loading model cost 0.977 seconds.
+2017-12-21 22:18:09,778 initialize:164 [DEBUG] Prefix dict has been built succesfully.
+2017-12-21 22:18:09,778 default:97 [DEBUG] turing run
+2017-12-21 22:18:09,780 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:18:10,632 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E4%B8%80%E4%BA%8C%E4%B8%89%E5%9B%9B%E4%BA%94%E5%85%AD%E4%B8%83%E5%85%AB%E4%B9%9D%E5%8D%81%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:18:10,635 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:18:10,891 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?per=0&lan=zh&spd=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E4%BD%A0%E6%98%AF%E6%83%B3%E8%AE%A9%E6%88%91%E5%86%8D%E4%B9%9F%E4%B8%8D%E8%83%BD%E4%B8%8E%E4%BD%A0%E8%81%8A%E5%A4%A9%E4%B9%88%E3%80%82%E3%80%82%E3%80%82&vol=5&tok=24.2e6eed0fd21e3d6d3c81b9ec7e87ad43.2592000.1516457869.282335-8118851&pit=5&ctp=1 HTTP/1.1" 200 6624
+2017-12-21 22:18:41,103 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:18:41,335 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_id=YVNd3SRFPwETI4f17PuLgm4d&grant_type=client_credentials&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36 HTTP/1.1" 200 447
+2017-12-21 22:18:50,743 loop:83 [INFO] detected
+2017-12-21 22:18:50,749 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:18:51,741 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&token=24.f4b749a9b3e36d1402532b51df14c384.2592000.1516457921.282335-8118851&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 120
+2017-12-21 22:18:51,744 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:18:51,898 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?spd=5&vol=5&tex=%E5%90%AC%E7%9D%80%E5%91%A2%EF%BC%8C%E7%88%B8%E7%88%B8&tok=24.f4b749a9b3e36d1402532b51df14c384.2592000.1516457921.282335-8118851&pit=5&lan=zh&per=0&ctp=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 2808
+2017-12-21 22:18:53,314 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:18:55,722 recordmicwav:37 [INFO] done
+2017-12-21 22:18:55,725 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:18:57,168 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&token=24.f4b749a9b3e36d1402532b51df14c384.2592000.1516457921.282335-8118851&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 117
+2017-12-21 22:18:57,170 run:84 [INFO] 1234，
+2017-12-21 22:18:57,170 default:97 [DEBUG] turing run
+2017-12-21 22:18:57,172 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:18:57,478 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?key=0426cf5db84b7c46091c5390288cf39b&info=1234%EF%BC%8C HTTP/1.1" 200 None
+2017-12-21 22:18:57,480 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:18:57,599 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?spd=5&vol=5&tex=%E5%B9%B2%E4%B9%88%EF%BC%9F&tok=24.f4b749a9b3e36d1402532b51df14c384.2592000.1516457921.282335-8118851&pit=5&lan=zh&per=0&ctp=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 1440
+2017-12-21 22:18:59,336 loop:88 [INFO] wait for next
+2017-12-21 22:19:27,456 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:19:27,680 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_id=YVNd3SRFPwETI4f17PuLgm4d&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&grant_type=client_credentials HTTP/1.1" 200 444
+2017-12-21 22:19:36,090 loop:83 [INFO] detected
+2017-12-21 22:19:36,094 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:19:37,309 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&token=24.bd809e6ab1f2f4f674efbf79004efbc3.2592000.1516457967.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:19:37,312 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:19:37,562 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.bd809e6ab1f2f4f674efbf79004efbc3.2592000.1516457967.282335-8118851&spd=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&pit=5&per=0&vol=5&tex=%E7%88%B6%E4%BA%B2%E5%A4%A7%E4%BA%BA%E8%AF%B7%E8%AF%B4&ctp=1&lan=zh HTTP/1.1" 200 3384
+2017-12-21 22:19:39,272 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:19:41,680 recordmicwav:37 [INFO] done
+2017-12-21 22:19:41,683 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:19:43,177 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&token=24.bd809e6ab1f2f4f674efbf79004efbc3.2592000.1516457967.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 118
+2017-12-21 22:19:43,178 run:84 [INFO] 1234，
+2017-12-21 22:19:43,178 default:97 [DEBUG] turing run
+2017-12-21 22:19:43,180 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:19:43,420 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?key=0426cf5db84b7c46091c5390288cf39b&info=1234%EF%BC%8C HTTP/1.1" 200 None
+2017-12-21 22:19:43,422 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:19:43,664 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.bd809e6ab1f2f4f674efbf79004efbc3.2592000.1516457967.282335-8118851&spd=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&pit=5&per=0&vol=5&tex=%E6%81%A9%E3%80%80%E4%B8%8D%E5%8F%91%E8%A1%A8%E4%BB%BB%E4%BD%95%E5%81%8F%E8%A7%81&ctp=1&lan=zh HTTP/1.1" 200 4104
+2017-12-21 22:19:46,726 loop:88 [INFO] wait for next
+2017-12-21 22:20:12,673 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:20:12,922 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?grant_type=client_credentials&client_id=YVNd3SRFPwETI4f17PuLgm4d&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36 HTTP/1.1" 200 442
+2017-12-21 22:20:21,320 loop:83 [INFO] detected
+2017-12-21 22:20:21,323 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:20:22,467 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&ptc=1&token=24.88ed3221a3ebcbf7b2c5152b427dea7c.2592000.1516458012.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 120
+2017-12-21 22:20:22,470 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:20:22,628 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&per=0&vol=5&tok=24.88ed3221a3ebcbf7b2c5152b427dea7c.2592000.1516458012.282335-8118851&spd=5&lan=zh&tex=%E5%90%AC%E7%9D%80%E5%91%A2%EF%BC%8C%E7%88%B8%E7%88%B8&ctp=1 HTTP/1.1" 200 2808
+2017-12-21 22:20:24,036 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:20:26,853 recordmicwav:37 [INFO] done
+2017-12-21 22:20:26,855 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:20:28,304 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&ptc=1&token=24.88ed3221a3ebcbf7b2c5152b427dea7c.2592000.1516458012.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 144
+2017-12-21 22:20:28,305 run:84 [INFO] 一二三四五六七八九十，
+2017-12-21 22:20:28,306 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-21 22:20:28,308 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-21 22:20:29,317 initialize:163 [DEBUG] Loading model cost 1.011 seconds.
+2017-12-21 22:20:29,317 initialize:164 [DEBUG] Prefix dict has been built succesfully.
+2017-12-21 22:20:29,317 default:97 [DEBUG] turing run
+2017-12-21 22:20:29,319 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:20:29,494 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?key=0426cf5db84b7c46091c5390288cf39b&info=%E4%B8%80%E4%BA%8C%E4%B8%89%E5%9B%9B%E4%BA%94%E5%85%AD%E4%B8%83%E5%85%AB%E4%B9%9D%E5%8D%81%EF%BC%8C HTTP/1.1" 200 None
+2017-12-21 22:20:29,497 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:20:29,758 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&per=0&vol=5&tok=24.88ed3221a3ebcbf7b2c5152b427dea7c.2592000.1516458012.282335-8118851&spd=5&lan=zh&tex=%E6%88%91%E4%BB%AC%E8%81%8A%E8%81%8A%E5%88%AB%E7%9A%84%E8%AF%9D%E9%A2%98%E5%90%A7&ctp=1 HTTP/1.1" 200 4032
+2017-12-21 22:20:32,800 loop:88 [INFO] wait for next
+2017-12-21 22:20:33,804 loop:83 [INFO] detected
+2017-12-21 22:20:33,808 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:22:29,882 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:22:30,132 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_id=YVNd3SRFPwETI4f17PuLgm4d&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&grant_type=client_credentials HTTP/1.1" 200 441
+2017-12-21 22:22:43,576 loop:83 [INFO] detected
+2017-12-21 22:22:43,579 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:22:44,906 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&token=24.c2c8aa9d0e1a68dd3348c89f999e93d3.2592000.1516458150.282335-8118851 HTTP/1.1" 200 120
+2017-12-21 22:22:44,909 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:22:45,078 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?spd=5&lan=zh&vol=5&pit=5&ctp=1&tex=%E4%BD%A0%E8%AF%B4%E5%90%A7%EF%BC%8C%E6%88%91%E7%9A%84%E7%88%B9&tok=24.c2c8aa9d0e1a68dd3348c89f999e93d3.2592000.1516458150.282335-8118851&per=0&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 3168
+2017-12-21 22:22:46,777 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:22:49,687 recordmicwav:37 [INFO] done
+2017-12-21 22:22:49,690 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:22:51,459 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&token=24.c2c8aa9d0e1a68dd3348c89f999e93d3.2592000.1516458150.282335-8118851 HTTP/1.1" 200 144
+2017-12-21 22:22:51,461 run:84 [INFO] 一二三四五六七八九十，
+2017-12-21 22:22:51,461 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-21 22:22:51,463 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-21 22:26:09,126 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:26:09,378 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&grant_type=client_credentials&client_id=YVNd3SRFPwETI4f17PuLgm4d HTTP/1.1" 200 440
+2017-12-21 22:26:19,819 loop:83 [INFO] detected
+2017-12-21 22:26:19,823 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:26:21,091 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&ptc=1&token=24.50146ad00c4393cb3e0916ef5fe26511.2592000.1516458369.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 120
+2017-12-21 22:26:21,094 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:26:21,259 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?pit=5&per=0&tok=24.50146ad00c4393cb3e0916ef5fe26511.2592000.1516458369.282335-8118851&lan=zh&ctp=1&tex=%E7%88%B9%EF%BC%8C%E6%88%91%E6%9D%A5%E4%BA%86&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&spd=5&vol=5 HTTP/1.1" 200 2592
+2017-12-21 22:26:22,574 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:26:25,792 recordmicwav:37 [INFO] done
+2017-12-21 22:26:25,794 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:26:27,368 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&ptc=1&token=24.50146ad00c4393cb3e0916ef5fe26511.2592000.1516458369.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 150
+2017-12-21 22:26:27,369 run:84 [INFO] 一二三四五六七八九十勾圈，
+2017-12-21 22:26:27,370 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-21 22:26:27,371 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-21 22:26:28,354 initialize:163 [DEBUG] Loading model cost 0.984 seconds.
+2017-12-21 22:26:28,354 initialize:164 [DEBUG] Prefix dict has been built succesfully.
+2017-12-21 22:26:28,355 default:97 [DEBUG] turing run
+2017-12-21 22:26:28,356 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:26:28,579 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E4%B8%80%E4%BA%8C%E4%B8%89%E5%9B%9B%E4%BA%94%E5%85%AD%E4%B8%83%E5%85%AB%E4%B9%9D%E5%8D%81%E5%8B%BE%E5%9C%88%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:26:28,581 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:26:28,812 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?pit=5&per=0&tok=24.50146ad00c4393cb3e0916ef5fe26511.2592000.1516458369.282335-8118851&lan=zh&ctp=1&tex=%E4%BD%A0%E5%85%88%E5%91%8A%E8%AF%89%E6%88%91%EF%BC%8C%E4%BD%A0%E6%83%B3%E7%9F%A5%E9%81%93%E7%9A%84%E6%9B%B4%E5%A4%9A%E4%BB%80%E4%B9%88%EF%BD%9E&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&spd=5&vol=5 HTTP/1.1" 200 6840
+2017-12-21 22:26:33,245 loop:88 [INFO] wait for next
+2017-12-21 22:28:05,553 loop:83 [INFO] detected
+2017-12-21 22:28:05,557 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:28:06,579 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&ptc=1&token=24.50146ad00c4393cb3e0916ef5fe26511.2592000.1516458369.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 79
+2017-12-21 22:28:06,585 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:28:06,585 loop:88 [INFO] wait for next
+2017-12-21 22:28:10,599 loop:83 [INFO] detected
+2017-12-21 22:28:10,603 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:28:11,664 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&ptc=1&token=24.50146ad00c4393cb3e0916ef5fe26511.2592000.1516458369.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 79
+2017-12-21 22:28:11,665 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:28:11,666 loop:88 [INFO] wait for next
+2017-12-21 22:28:12,668 loop:83 [INFO] detected
+2017-12-21 22:28:12,671 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:28:13,532 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&ptc=1&token=24.50146ad00c4393cb3e0916ef5fe26511.2592000.1516458369.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 79
+2017-12-21 22:28:13,533 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:28:13,534 loop:88 [INFO] wait for next
+2017-12-21 22:28:16,543 loop:83 [INFO] detected
+2017-12-21 22:28:16,546 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:28:17,459 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&ptc=1&token=24.50146ad00c4393cb3e0916ef5fe26511.2592000.1516458369.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 79
+2017-12-21 22:28:17,461 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:28:17,461 loop:88 [INFO] wait for next
+2017-12-21 22:28:24,487 loop:83 [INFO] detected
+2017-12-21 22:28:24,489 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:28:25,249 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&ptc=1&token=24.50146ad00c4393cb3e0916ef5fe26511.2592000.1516458369.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 79
+2017-12-21 22:28:25,251 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:28:25,251 loop:88 [INFO] wait for next
+2017-12-21 22:28:27,253 loop:83 [INFO] detected
+2017-12-21 22:28:27,256 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:28:28,174 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&ptc=1&token=24.50146ad00c4393cb3e0916ef5fe26511.2592000.1516458369.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 79
+2017-12-21 22:28:28,176 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:28:28,176 loop:88 [INFO] wait for next
+2017-12-21 22:28:30,529 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:28:30,782 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_id=YVNd3SRFPwETI4f17PuLgm4d&grant_type=client_credentials&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36 HTTP/1.1" 200 437
+2017-12-21 22:28:39,207 loop:83 [INFO] detected
+2017-12-21 22:28:39,210 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:28:40,422 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ptc=1 HTTP/1.1" 200 79
+2017-12-21 22:28:40,424 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:28:40,424 loop:88 [INFO] wait for next
+2017-12-21 22:28:43,433 loop:83 [INFO] detected
+2017-12-21 22:28:43,435 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:28:44,826 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ptc=1 HTTP/1.1" 200 120
+2017-12-21 22:28:44,829 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:28:45,019 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?lan=zh&tok=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ctp=1&vol=5&spd=5&tex=%E7%88%B6%E4%BA%B2%E5%A4%A7%E4%BA%BA%EF%BC%8C%E6%88%91%E6%9D%A5%E4%BA%86&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 3960
+2017-12-21 22:28:47,115 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:28:51,349 recordmicwav:37 [INFO] done
+2017-12-21 22:28:51,351 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:28:53,956 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ptc=1 HTTP/1.1" 200 168
+2017-12-21 22:28:53,957 run:84 [INFO] 祝你跟我六一二三四五六七八九十勾圈凯，
+2017-12-21 22:28:53,957 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-21 22:28:53,959 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-21 22:28:54,933 initialize:163 [DEBUG] Loading model cost 0.976 seconds.
+2017-12-21 22:28:54,934 initialize:164 [DEBUG] Prefix dict has been built succesfully.
+2017-12-21 22:28:54,934 default:97 [DEBUG] turing run
+2017-12-21 22:28:54,936 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:28:55,180 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?key=0426cf5db84b7c46091c5390288cf39b&info=%E7%A5%9D%E4%BD%A0%E8%B7%9F%E6%88%91%E5%85%AD%E4%B8%80%E4%BA%8C%E4%B8%89%E5%9B%9B%E4%BA%94%E5%85%AD%E4%B8%83%E5%85%AB%E4%B9%9D%E5%8D%81%E5%8B%BE%E5%9C%88%E5%87%AF%EF%BC%8C HTTP/1.1" 200 None
+2017-12-21 22:28:55,183 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:28:55,378 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?lan=zh&tok=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ctp=1&vol=5&spd=5&tex=%E6%88%91%E4%BB%AC%E8%81%8A%E8%81%8A%E5%88%AB%E7%9A%84%E8%AF%9D%E9%A2%98%E5%90%A7&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 4032
+2017-12-21 22:28:58,420 loop:88 [INFO] wait for next
+2017-12-21 22:29:05,446 loop:83 [INFO] detected
+2017-12-21 22:29:05,449 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:29:06,551 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ptc=1 HTTP/1.1" 200 114
+2017-12-21 22:29:06,553 loop:88 [INFO] wait for next
+2017-12-21 22:29:07,558 loop:83 [INFO] detected
+2017-12-21 22:29:07,560 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:29:08,394 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ptc=1 HTTP/1.1" 200 79
+2017-12-21 22:29:08,395 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:29:08,395 loop:88 [INFO] wait for next
+2017-12-21 22:29:10,404 loop:83 [INFO] detected
+2017-12-21 22:29:10,407 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:29:11,293 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ptc=1 HTTP/1.1" 200 120
+2017-12-21 22:29:11,295 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:29:11,462 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?lan=zh&tok=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ctp=1&vol=5&spd=5&tex=%E4%BD%A0%E8%AF%B4%E5%90%A7%EF%BC%8C%E6%88%91%E7%9A%84%E7%88%B9&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 3168
+2017-12-21 22:29:13,057 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:29:18,919 recordmicwav:37 [INFO] done
+2017-12-21 22:29:18,923 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:29:22,218 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ptc=1 HTTP/1.1" 200 180
+2017-12-21 22:29:22,220 run:84 [INFO] 我就想说话然后你给我录看能录多长时间最多你就，
+2017-12-21 22:29:22,220 default:97 [DEBUG] turing run
+2017-12-21 22:29:22,222 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:29:22,730 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?key=0426cf5db84b7c46091c5390288cf39b&info=%E6%88%91%E5%B0%B1%E6%83%B3%E8%AF%B4%E8%AF%9D%E7%84%B6%E5%90%8E%E4%BD%A0%E7%BB%99%E6%88%91%E5%BD%95%E7%9C%8B%E8%83%BD%E5%BD%95%E5%A4%9A%E9%95%BF%E6%97%B6%E9%97%B4%E6%9C%80%E5%A4%9A%E4%BD%A0%E5%B0%B1%EF%BC%8C HTTP/1.1" 200 None
+2017-12-21 22:29:22,733 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:29:23,140 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?lan=zh&tok=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ctp=1&vol=5&spd=5&tex=%E7%BE%8E%E4%B8%91%E6%9C%89%E5%91%BD%EF%BC%8C%E8%83%96%E7%98%A6%E5%9C%A8%E5%A4%A9%EF%BC%8C%E5%B0%B1%E9%9D%A0%E8%BF%99%E5%8F%A5%E8%AF%9D%E6%B4%BB%E7%9D%80%E4%BA%86%E3%80%82&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 8928
+2017-12-21 22:29:28,619 loop:88 [INFO] wait for next
+2017-12-21 22:29:34,634 loop:83 [INFO] detected
+2017-12-21 22:29:34,637 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:29:35,697 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ptc=1 HTTP/1.1" 200 119
+2017-12-21 22:29:35,700 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:29:35,931 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?lan=zh&tok=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ctp=1&vol=5&spd=5&tex=%E5%93%88%E5%93%88%E5%93%88%EF%BC%8C%E6%88%91%E6%89%8D%E4%B8%8D%E5%8F%AB%E7%88%B9&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 4608
+2017-12-21 22:29:38,245 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:29:43,296 recordmicwav:37 [INFO] done
+2017-12-21 22:29:43,299 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:29:46,257 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ptc=1 HTTP/1.1" 200 172
+2017-12-21 22:29:46,258 run:84 [INFO] 对了你就这么听我就这么普通说话能觉得真好，
+2017-12-21 22:29:46,258 default:97 [DEBUG] turing run
+2017-12-21 22:29:46,260 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:29:46,679 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?key=0426cf5db84b7c46091c5390288cf39b&info=%E5%AF%B9%E4%BA%86%E4%BD%A0%E5%B0%B1%E8%BF%99%E4%B9%88%E5%90%AC%E6%88%91%E5%B0%B1%E8%BF%99%E4%B9%88%E6%99%AE%E9%80%9A%E8%AF%B4%E8%AF%9D%E8%83%BD%E8%A7%89%E5%BE%97%E7%9C%9F%E5%A5%BD%EF%BC%8C HTTP/1.1" 200 None
+2017-12-21 22:29:46,682 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:29:46,923 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?lan=zh&tok=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ctp=1&vol=5&spd=5&tex=%E6%99%AE%E9%80%9A%E5%90%97%EF%BC%9F%E6%B2%A1%E8%A7%89%E5%BE%97%E7%9A%84%EF%BC%8C%E7%AE%80%E7%9B%B4%E6%98%AF%E8%B6%85%E5%87%A1%E8%84%B1%E4%BF%97%E7%9A%84%E3%80%82&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 8064
+2017-12-21 22:29:51,984 loop:88 [INFO] wait for next
+2017-12-21 22:29:54,996 loop:83 [INFO] detected
+2017-12-21 22:29:54,999 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:29:56,026 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ptc=1 HTTP/1.1" 200 79
+2017-12-21 22:29:56,027 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:29:56,028 loop:88 [INFO] wait for next
+2017-12-21 22:29:58,037 loop:83 [INFO] detected
+2017-12-21 22:29:58,039 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:29:59,338 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ptc=1 HTTP/1.1" 200 120
+2017-12-21 22:29:59,342 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:29:59,518 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?lan=zh&tok=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ctp=1&vol=5&spd=5&tex=%E7%88%B6%E4%BA%B2%E5%A4%A7%E4%BA%BA%E8%AF%B7%E8%AF%B4&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 3384
+2017-12-21 22:30:01,229 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:30:04,456 recordmicwav:37 [INFO] done
+2017-12-21 22:30:04,459 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:30:07,070 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&token=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ptc=1 HTTP/1.1" 200 159
+2017-12-21 22:30:07,071 run:84 [INFO] 什么语音就容易识路啊，这样行吗？
+2017-12-21 22:30:07,071 default:97 [DEBUG] turing run
+2017-12-21 22:30:07,073 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:30:07,581 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?key=0426cf5db84b7c46091c5390288cf39b&info=%E4%BB%80%E4%B9%88%E8%AF%AD%E9%9F%B3%E5%B0%B1%E5%AE%B9%E6%98%93%E8%AF%86%E8%B7%AF%E5%95%8A%EF%BC%8C%E8%BF%99%E6%A0%B7%E8%A1%8C%E5%90%97%EF%BC%9F HTTP/1.1" 200 None
+2017-12-21 22:30:07,584 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:30:07,772 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?lan=zh&tok=24.d066cbb0ebf133c96dba4ab9ed7ccc43.2592000.1516458510.282335-8118851&ctp=1&vol=5&spd=5&tex=%E4%B8%8D%E6%98%AF%E8%B7%AF%E7%97%B4%E5%BD%93%E7%84%B6%E6%98%AF%E6%9C%80%E5%A5%BD%E4%BA%86%E3%80%82&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 5112
+2017-12-21 22:30:11,345 loop:88 [INFO] wait for next
+2017-12-21 22:30:52,705 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:30:52,965 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?grant_type=client_credentials&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&client_id=YVNd3SRFPwETI4f17PuLgm4d HTTP/1.1" 200 447
+2017-12-21 22:31:01,387 loop:83 [INFO] detected
+2017-12-21 22:31:01,390 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:31:02,647 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:31:02,651 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:31:02,651 loop:88 [INFO] wait for next
+2017-12-21 22:31:05,664 loop:83 [INFO] detected
+2017-12-21 22:31:05,666 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:31:06,667 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 78
+2017-12-21 22:31:06,668 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:31:06,669 loop:88 [INFO] wait for next
+2017-12-21 22:31:09,680 loop:83 [INFO] detected
+2017-12-21 22:31:09,682 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:31:10,763 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 77
+2017-12-21 22:31:10,764 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:31:10,764 loop:88 [INFO] wait for next
+2017-12-21 22:31:12,768 loop:83 [INFO] detected
+2017-12-21 22:31:12,770 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:31:13,732 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:31:13,733 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:31:13,733 loop:88 [INFO] wait for next
+2017-12-21 22:31:16,748 loop:83 [INFO] detected
+2017-12-21 22:31:16,751 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:31:17,904 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 120
+2017-12-21 22:31:17,908 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:31:18,075 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&ctp=1&lan=zh&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E7%88%B9%EF%BC%8C%E6%88%91%E6%9D%A5%E4%BA%86&per=0&tok=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 2592
+2017-12-21 22:31:19,496 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:31:24,748 recordmicwav:37 [INFO] done
+2017-12-21 22:31:24,750 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:31:28,990 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 147
+2017-12-21 22:31:28,991 run:84 [INFO] 怎么总不好使呢这个靠用，
+2017-12-21 22:31:28,991 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-21 22:31:28,994 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-21 22:31:29,955 initialize:163 [DEBUG] Loading model cost 0.964 seconds.
+2017-12-21 22:31:29,955 initialize:164 [DEBUG] Prefix dict has been built succesfully.
+2017-12-21 22:31:29,956 default:97 [DEBUG] turing run
+2017-12-21 22:31:29,957 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:31:30,526 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E6%80%8E%E4%B9%88%E6%80%BB%E4%B8%8D%E5%A5%BD%E4%BD%BF%E5%91%A2%E8%BF%99%E4%B8%AA%E9%9D%A0%E7%94%A8%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:31:30,528 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:31:30,936 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&ctp=1&lan=zh&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E4%BA%BA%E7%94%9F%E5%9C%A8%E4%B8%96%EF%BC%8C%E5%85%88%E8%A2%AB%E5%88%AB%E4%BA%BA%E7%AC%91%E7%AC%91%EF%BC%8C%E5%86%8D%E5%8E%BB%E7%AC%91%E7%AC%91%E5%88%AB%E3%80%80%E4%BA%BA%EF%BC%8C%E7%84%B6%E5%90%8E%E5%B0%B1%E5%90%AB%E7%AC%91%E4%B9%9D%E6%B3%89%E4%BA%86%E3%80%82&per=0&tok=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 13824
+2017-12-21 22:31:38,899 loop:88 [INFO] wait for next
+2017-12-21 22:31:40,909 loop:83 [INFO] detected
+2017-12-21 22:31:40,913 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:31:42,303 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 78
+2017-12-21 22:31:42,304 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:31:42,304 loop:88 [INFO] wait for next
+2017-12-21 22:31:45,318 loop:83 [INFO] detected
+2017-12-21 22:31:45,321 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:31:46,398 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 120
+2017-12-21 22:31:46,401 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:31:46,591 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&ctp=1&lan=zh&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E6%82%A8%E8%AF%B4&per=0&tok=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 1512
+2017-12-21 22:31:47,373 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:31:50,191 recordmicwav:37 [INFO] done
+2017-12-21 22:31:50,196 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:31:51,928 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 132
+2017-12-21 22:31:51,930 run:84 [INFO] 给爹讲个笑话，
+2017-12-21 22:31:51,930 default:97 [DEBUG] turing run
+2017-12-21 22:31:51,932 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:31:52,337 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E7%BB%99%E7%88%B9%E8%AE%B2%E4%B8%AA%E7%AC%91%E8%AF%9D%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:31:52,340 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:31:52,903 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&ctp=1&lan=zh&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E5%A5%B3%E5%8F%8B%E4%B8%80%E6%97%A9%E5%B0%B1%E6%B0%94%E9%BC%93%E9%BC%93%E7%9A%84%E9%97%AE%E6%88%91%E6%98%AF%E4%B8%8D%E6%98%AF%E4%B8%8D%E7%88%B1%E5%A5%B9%E4%BA%86%E3%80%82%E2%80%9C%E6%88%91%E6%80%8E%E4%B9%88%E5%B0%B1%E4%B8%8D%E7%88%B1%E4%BD%A0%E4%BA%86%EF%BC%9F%E2%80%9D+%E2%80%9C%E4%BD%A0%E5%B0%B1%E6%98%AF%E4%B8%8D%E7%88%B1%E6%88%91%E4%BA%86%EF%BC%81%E6%88%91%E6%98%A8%E6%99%9A%E6%A2%A6%E5%88%B0%E4%BD%A0%E5%B8%A6%E7%9D%80%E5%88%AB%E7%9A%84%E5%A5%B3%E4%BA%BA%E9%80%9B%E8%A1%97%EF%BC%8C%E8%BF%98%E7%BB%99%E5%A5%B9%E4%B9%B0%E4%BA%86%E5%8C%85%EF%BC%81%E2%80%9D%E2%80%9C%E5%88%AB%E9%97%B9%E4%BA%86%E4%BA%B2%E7%88%B1%E7%9A%84%EF%BC%8C%E6%A2%A6%E9%87%8C%E7%9A%84%E4%B8%9C%E8%A5%BF%E8%83%BD%E7%9C%9F%E5%90%97%EF%BC%9F%E2%80%9D+%E2%80%9C%E4%BD%A0%E6%94%BE%E5%B1%81%EF%BC%81%E6%88%91%E8%AE%B0%E5%BE%97%E7%89%B9%E5%88%AB%E6%B8%85%E6%A5%9A%EF%BC%81%E5%B0%B1%E5%9C%A8%E7%99%BE%E7%9B%9B%E4%BA%8C%E6%A5%BC%E7%9A%84%E4%B8%80%E5%AE%B6%E5%BA%97%EF%BC%81%E4%BB%B7%E6%A0%BC%E6%88%91%E9%83%BD%E8%AE%B0%E5%BE%97%EF%BC%811288%EF%BC%81%E6%88%91%E4%B8%8D%E7%AE%A1%EF%BC%81%E4%BD%A0%E5%B0%B1%E6%98%AF%E4%B8%8D%E7%88%B1%E6%88%91%E4%BA%86%EF%BC%81%E2%80%9D%E2%80%9C%E2%80%A6%E2%80%A6%E4%B9%B0%E2%80%9D&per=0&tok=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 52488
+2017-12-21 22:32:20,260 loop:88 [INFO] wait for next
+2017-12-21 22:32:23,270 loop:83 [INFO] detected
+2017-12-21 22:32:23,274 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:32:24,194 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:32:24,197 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:32:24,197 loop:88 [INFO] wait for next
+2017-12-21 22:32:25,203 loop:83 [INFO] detected
+2017-12-21 22:32:25,205 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:32:26,383 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 120
+2017-12-21 22:32:26,386 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:32:26,538 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&ctp=1&lan=zh&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E5%B9%B2%E4%BB%80%E4%B9%88%E5%95%8A%EF%BC%8C%E7%88%B9&per=0&tok=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 2808
+2017-12-21 22:32:27,953 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:32:30,567 recordmicwav:37 [INFO] done
+2017-12-21 22:32:30,570 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:32:32,581 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 135
+2017-12-21 22:32:32,582 run:84 [INFO] 再给你讲个笑话，
+2017-12-21 22:32:32,582 default:97 [DEBUG] turing run
+2017-12-21 22:32:32,584 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:32:32,990 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E5%86%8D%E7%BB%99%E4%BD%A0%E8%AE%B2%E4%B8%AA%E7%AC%91%E8%AF%9D%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:32:32,992 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:32:33,298 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&ctp=1&lan=zh&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E5%A5%BD%E5%91%80%EF%BC%8C%E7%9C%8B%E7%9C%8B%E4%BD%A0%E7%9A%84%E7%AC%91%E8%AF%9D%E6%90%9E%E7%AC%91%EF%BC%8C%E8%BF%98%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%91%E5%AE%B9%E5%8F%AF%E7%AC%91%E3%80%82&per=0&tok=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 9432
+2017-12-21 22:32:39,032 loop:88 [INFO] wait for next
+2017-12-21 22:32:40,039 loop:83 [INFO] detected
+2017-12-21 22:32:40,043 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:32:40,978 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:32:40,979 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:32:40,979 loop:88 [INFO] wait for next
+2017-12-21 22:32:41,983 loop:83 [INFO] detected
+2017-12-21 22:32:41,985 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:32:43,128 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 119
+2017-12-21 22:32:43,131 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:32:43,278 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&ctp=1&lan=zh&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E5%B9%B2%E4%BB%80%E4%B9%88%E5%95%8A%EF%BC%8C%E7%88%B9&per=0&tok=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 2808
+2017-12-21 22:32:44,689 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:32:47,306 recordmicwav:37 [INFO] done
+2017-12-21 22:32:47,310 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:32:48,658 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 135
+2017-12-21 22:32:48,659 run:84 [INFO] 再给我讲个笑话，
+2017-12-21 22:32:48,659 default:97 [DEBUG] turing run
+2017-12-21 22:32:48,661 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:32:48,903 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E5%86%8D%E7%BB%99%E6%88%91%E8%AE%B2%E4%B8%AA%E7%AC%91%E8%AF%9D%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:32:48,905 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:32:49,380 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&ctp=1&lan=zh&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E5%9C%A8%E5%AD%A6%E6%A0%A1%E7%8A%AF%E9%94%99%E8%AF%AF%EF%BC%8C%E8%80%81%E5%B8%88%E8%AE%A9%E6%8A%8A%E5%AE%B6%E9%95%BF%E5%8F%AB%E6%9D%A5%EF%BC%8C%E6%88%91%E8%AF%B4%E5%AE%B6%E9%95%BF%E4%B8%8D%E5%9C%A8%EF%BC%8C%E8%88%85%E8%88%85%E5%8F%AF%E4%BB%A5%E5%90%97%EF%BC%9F%E8%80%81%E5%B8%88%E8%AF%B4%E8%A1%8C%E3%80%82%E4%BA%8E%E6%98%AF%E7%AC%AC%E4%BA%8C%E5%A4%A9%EF%BC%8C%E6%88%91%E8%83%8C%E7%9D%80%E6%88%91%E4%B8%89%E5%B2%81%E7%9A%84%E8%88%85%E8%88%85%E8%B8%8F%E4%B8%8A%E4%BA%86%E4%B8%8D%E5%BD%92%E8%B7%AF%E2%80%A6&per=0&tok=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 25488
+2017-12-21 22:33:03,183 loop:88 [INFO] wait for next
+2017-12-21 22:33:08,204 loop:83 [INFO] detected
+2017-12-21 22:33:08,209 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:33:09,240 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 120
+2017-12-21 22:33:09,243 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:33:09,403 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&ctp=1&lan=zh&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E7%88%B9%EF%BC%8C%E6%88%91%E6%9D%A5%E4%BA%86&per=0&tok=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 2592
+2017-12-21 22:33:10,722 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:33:13,944 recordmicwav:37 [INFO] done
+2017-12-21 22:33:13,947 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:33:15,848 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 140
+2017-12-21 22:33:15,849 run:84 [INFO] 你怎么是个女儿身呢，
+2017-12-21 22:33:15,849 default:97 [DEBUG] turing run
+2017-12-21 22:33:15,851 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:33:16,205 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E4%BD%A0%E6%80%8E%E4%B9%88%E6%98%AF%E4%B8%AA%E5%A5%B3%E5%84%BF%E8%BA%AB%E5%91%A2%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:33:16,207 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:33:16,511 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?vol=5&spd=5&ctp=1&lan=zh&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E8%A2%AB%E5%8F%91%E7%8E%B0%E6%98%AF%E5%9B%A0%E4%B8%BA%E8%BA%AB%E6%9D%90%E5%A4%AA%E5%A5%BD%E4%BA%86%E5%98%9B%E3%80%82&per=0&tok=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 5976
+2017-12-21 22:33:20,538 loop:88 [INFO] wait for next
+2017-12-21 22:33:28,563 loop:83 [INFO] detected
+2017-12-21 22:33:28,566 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:33:29,720 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:33:29,722 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:33:29,722 loop:88 [INFO] wait for next
+2017-12-21 22:33:34,739 loop:83 [INFO] detected
+2017-12-21 22:33:34,742 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:33:35,513 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:33:35,514 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:33:35,514 loop:88 [INFO] wait for next
+2017-12-21 22:33:37,523 loop:83 [INFO] detected
+2017-12-21 22:33:37,526 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:33:38,451 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 78
+2017-12-21 22:33:38,452 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:33:38,452 loop:88 [INFO] wait for next
+2017-12-21 22:33:46,481 loop:83 [INFO] detected
+2017-12-21 22:33:46,484 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:33:47,641 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:33:47,643 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:33:47,643 loop:88 [INFO] wait for next
+2017-12-21 22:33:48,647 loop:83 [INFO] detected
+2017-12-21 22:33:48,650 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:33:49,943 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:33:49,944 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:33:49,944 loop:88 [INFO] wait for next
+2017-12-21 22:33:50,950 loop:83 [INFO] detected
+2017-12-21 22:33:50,953 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:33:51,941 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 76
+2017-12-21 22:33:51,943 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:33:51,943 loop:88 [INFO] wait for next
+2017-12-21 22:33:52,945 loop:83 [INFO] detected
+2017-12-21 22:33:52,948 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:33:53,955 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 78
+2017-12-21 22:33:53,958 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:33:53,959 loop:88 [INFO] wait for next
+2017-12-21 22:33:54,963 loop:83 [INFO] detected
+2017-12-21 22:33:54,966 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:33:56,140 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 78
+2017-12-21 22:33:56,142 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:33:56,142 loop:88 [INFO] wait for next
+2017-12-21 22:33:57,148 loop:83 [INFO] detected
+2017-12-21 22:33:57,151 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:33:58,048 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:33:58,049 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:33:58,049 loop:88 [INFO] wait for next
+2017-12-21 22:33:59,055 loop:83 [INFO] detected
+2017-12-21 22:33:59,058 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:33:59,891 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:33:59,892 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:33:59,892 loop:88 [INFO] wait for next
+2017-12-21 22:34:01,898 loop:83 [INFO] detected
+2017-12-21 22:34:01,900 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:34:03,001 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 77
+2017-12-21 22:34:03,002 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:34:03,002 loop:88 [INFO] wait for next
+2017-12-21 22:34:05,008 loop:83 [INFO] detected
+2017-12-21 22:34:05,011 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:34:06,065 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:34:06,066 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:34:06,066 loop:88 [INFO] wait for next
+2017-12-21 22:34:10,078 loop:83 [INFO] detected
+2017-12-21 22:34:10,081 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:34:10,747 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:34:10,748 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:34:10,749 loop:88 [INFO] wait for next
+2017-12-21 22:34:15,772 loop:83 [INFO] detected
+2017-12-21 22:34:15,774 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:34:16,722 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:34:16,723 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:34:16,724 loop:88 [INFO] wait for next
+2017-12-21 22:34:18,732 loop:83 [INFO] detected
+2017-12-21 22:34:18,735 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:34:19,666 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:34:19,667 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:34:19,667 loop:88 [INFO] wait for next
+2017-12-21 22:34:20,669 loop:83 [INFO] detected
+2017-12-21 22:34:20,673 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:34:21,637 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:34:21,638 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:34:21,639 loop:88 [INFO] wait for next
+2017-12-21 22:34:24,651 loop:83 [INFO] detected
+2017-12-21 22:34:24,654 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:34:25,760 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:34:25,762 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:34:25,763 loop:88 [INFO] wait for next
+2017-12-21 22:34:31,780 loop:83 [INFO] detected
+2017-12-21 22:34:31,783 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:34:32,697 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:34:32,698 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:34:32,698 loop:88 [INFO] wait for next
+2017-12-21 22:34:35,714 loop:83 [INFO] detected
+2017-12-21 22:34:35,716 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:34:36,738 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:34:36,739 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:34:36,739 loop:88 [INFO] wait for next
+2017-12-21 22:34:38,748 loop:83 [INFO] detected
+2017-12-21 22:34:38,752 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:34:39,762 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:34:39,764 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:34:39,764 loop:88 [INFO] wait for next
+2017-12-21 22:34:41,774 loop:83 [INFO] detected
+2017-12-21 22:34:41,776 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:34:42,732 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 78
+2017-12-21 22:34:42,733 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:34:42,734 loop:88 [INFO] wait for next
+2017-12-21 22:34:47,753 loop:83 [INFO] detected
+2017-12-21 22:34:47,755 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:34:48,569 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:34:48,570 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:34:48,570 loop:88 [INFO] wait for next
+2017-12-21 22:35:05,623 loop:83 [INFO] detected
+2017-12-21 22:35:05,626 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:35:06,587 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:35:06,588 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:35:06,588 loop:88 [INFO] wait for next
+2017-12-21 22:35:08,594 loop:83 [INFO] detected
+2017-12-21 22:35:08,597 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:35:09,663 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:35:09,664 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:35:09,665 loop:88 [INFO] wait for next
+2017-12-21 22:35:12,674 loop:83 [INFO] detected
+2017-12-21 22:35:12,677 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:35:13,657 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:35:13,658 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:35:13,659 loop:88 [INFO] wait for next
+2017-12-21 22:35:15,670 loop:83 [INFO] detected
+2017-12-21 22:35:15,673 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:35:16,582 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:35:16,584 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:35:16,584 loop:88 [INFO] wait for next
+2017-12-21 22:35:28,627 loop:83 [INFO] detected
+2017-12-21 22:35:28,635 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:35:29,632 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:35:29,635 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:35:29,636 loop:88 [INFO] wait for next
+2017-12-21 22:35:33,652 loop:83 [INFO] detected
+2017-12-21 22:35:33,654 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:35:34,649 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:35:34,650 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:35:34,651 loop:88 [INFO] wait for next
+2017-12-21 22:35:36,659 loop:83 [INFO] detected
+2017-12-21 22:35:36,662 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:35:37,926 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:35:37,927 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:35:37,927 loop:88 [INFO] wait for next
+2017-12-21 22:35:39,934 loop:83 [INFO] detected
+2017-12-21 22:35:39,937 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:35:40,995 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 78
+2017-12-21 22:35:40,997 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:35:40,997 loop:88 [INFO] wait for next
+2017-12-21 22:35:44,010 loop:83 [INFO] detected
+2017-12-21 22:35:44,012 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:35:44,994 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:35:44,995 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:35:44,996 loop:88 [INFO] wait for next
+2017-12-21 22:35:55,035 loop:83 [INFO] detected
+2017-12-21 22:35:55,038 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:35:56,130 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:35:56,132 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:35:56,132 loop:88 [INFO] wait for next
+2017-12-21 22:36:09,171 loop:83 [INFO] detected
+2017-12-21 22:36:09,174 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:36:10,080 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.702f93957dac69a8da04d48267773cf7.2592000.1516458652.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:36:10,081 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:36:10,081 loop:88 [INFO] wait for next
+2017-12-21 22:36:14,567 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:36:14,803 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&grant_type=client_credentials&client_id=YVNd3SRFPwETI4f17PuLgm4d HTTP/1.1" 200 439
+2017-12-21 22:36:18,182 loop:83 [INFO] detected
+2017-12-21 22:36:18,186 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:36:19,296 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.1fa2425a8c613b01d18db8ec49a7a890.2592000.1516458974.282335-8118851&ptc=1&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:36:19,299 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:36:19,487 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?spd=5&ctp=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&vol=5&per=0&pit=5&tok=24.1fa2425a8c613b01d18db8ec49a7a890.2592000.1516458974.282335-8118851&tex=%E7%88%B6%E4%BA%B2%E5%A4%A7%E4%BA%BA%E8%AF%B7%E8%AF%B4&lan=zh HTTP/1.1" 200 3384
+2017-12-21 22:36:21,300 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:36:23,709 recordmicwav:37 [INFO] done
+2017-12-21 22:36:23,713 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:36:25,030 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.1fa2425a8c613b01d18db8ec49a7a890.2592000.1516458974.282335-8118851&ptc=1&lan=zh HTTP/1.1" 200 123
+2017-12-21 22:36:25,032 run:84 [INFO] 挺好用，
+2017-12-21 22:36:25,032 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-21 22:36:25,035 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-21 22:36:26,045 initialize:163 [DEBUG] Loading model cost 1.013 seconds.
+2017-12-21 22:36:26,045 initialize:164 [DEBUG] Prefix dict has been built succesfully.
+2017-12-21 22:36:26,046 default:97 [DEBUG] turing run
+2017-12-21 22:36:26,047 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:36:26,251 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E6%8C%BA%E5%A5%BD%E7%94%A8%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:36:26,253 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:36:26,442 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?spd=5&ctp=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&vol=5&per=0&pit=5&tok=24.1fa2425a8c613b01d18db8ec49a7a890.2592000.1516458974.282335-8118851&tex=%E5%A5%BD%E7%94%A8%E5%B0%B1%E5%A4%9A%E7%94%A8%E7%82%B9%E3%80%82&lan=zh HTTP/1.1" 200 3312
+2017-12-21 22:36:29,115 loop:88 [INFO] wait for next
+2017-12-21 22:36:30,118 loop:83 [INFO] detected
+2017-12-21 22:36:30,121 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:36:30,970 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&token=24.1fa2425a8c613b01d18db8ec49a7a890.2592000.1516458974.282335-8118851&ptc=1&lan=zh HTTP/1.1" 200 79
+2017-12-21 22:36:30,974 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:36:30,975 loop:88 [INFO] wait for next
+2017-12-21 22:37:46,619 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:37:46,857 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&client_id=YVNd3SRFPwETI4f17PuLgm4d&grant_type=client_credentials HTTP/1.1" 200 439
+2017-12-21 22:37:52,284 loop:83 [INFO] detected
+2017-12-21 22:37:52,288 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:37:53,607 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:37:53,611 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:37:53,611 loop:88 [INFO] wait for next
+2017-12-21 22:37:55,620 loop:83 [INFO] detected
+2017-12-21 22:37:55,623 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:37:56,577 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:37:56,578 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:37:56,578 loop:88 [INFO] wait for next
+2017-12-21 22:37:57,583 loop:83 [INFO] detected
+2017-12-21 22:37:57,586 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:37:58,522 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:37:58,523 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:37:58,524 loop:88 [INFO] wait for next
+2017-12-21 22:38:07,552 loop:83 [INFO] detected
+2017-12-21 22:38:07,554 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:38:08,865 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:38:08,866 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:38:08,866 loop:88 [INFO] wait for next
+2017-12-21 22:38:09,867 loop:83 [INFO] detected
+2017-12-21 22:38:09,869 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:38:10,708 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:38:10,709 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:38:10,710 loop:88 [INFO] wait for next
+2017-12-21 22:38:14,724 loop:83 [INFO] detected
+2017-12-21 22:38:14,726 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:38:16,033 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 119
+2017-12-21 22:38:16,035 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:38:16,184 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851&lan=zh&ctp=1&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E5%90%AC%E7%9D%80%E5%91%A2%EF%BC%8C%E7%88%B8%E7%88%B8&vol=5&spd=5 HTTP/1.1" 200 2808
+2017-12-21 22:38:17,691 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:38:20,713 recordmicwav:37 [INFO] done
+2017-12-21 22:38:20,715 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:38:22,791 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 135
+2017-12-21 22:38:22,792 run:84 [INFO] 你怎么下的不停，
+2017-12-21 22:38:22,793 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-21 22:38:22,795 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-21 22:38:23,836 initialize:163 [DEBUG] Loading model cost 1.043 seconds.
+2017-12-21 22:38:23,836 initialize:164 [DEBUG] Prefix dict has been built succesfully.
+2017-12-21 22:38:23,836 default:97 [DEBUG] turing run
+2017-12-21 22:38:23,838 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:38:24,328 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E4%BD%A0%E6%80%8E%E4%B9%88%E4%B8%8B%E7%9A%84%E4%B8%8D%E5%81%9C%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:38:24,332 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:38:24,538 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851&lan=zh&ctp=1&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E6%89%93%E8%B4%A5%E4%BD%A0%E7%9A%84%E4%B8%8D%E6%98%AF%E5%A4%A9%E7%9C%9F%E6%98%AF%E6%97%A0%E9%82%AA&vol=5&spd=5 HTTP/1.1" 200 5616
+2017-12-21 22:38:28,372 loop:88 [INFO] wait for next
+2017-12-21 22:38:29,375 loop:83 [INFO] detected
+2017-12-21 22:38:29,378 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:38:30,471 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:38:30,473 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:38:30,473 loop:88 [INFO] wait for next
+2017-12-21 22:38:32,483 loop:83 [INFO] detected
+2017-12-21 22:38:32,486 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:38:33,338 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 78
+2017-12-21 22:38:33,339 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:38:33,340 loop:88 [INFO] wait for next
+2017-12-21 22:38:36,352 loop:83 [INFO] detected
+2017-12-21 22:38:36,355 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:38:37,844 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 120
+2017-12-21 22:38:37,847 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:38:38,042 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851&lan=zh&ctp=1&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E7%88%B6%E4%BA%B2%E5%A4%A7%E4%BA%BA%EF%BC%8C%E6%88%91%E6%9D%A5%E4%BA%86&vol=5&spd=5 HTTP/1.1" 200 3960
+2017-12-21 22:38:40,037 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:38:42,854 recordmicwav:37 [INFO] done
+2017-12-21 22:38:42,857 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:38:44,603 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 135
+2017-12-21 22:38:44,604 run:84 [INFO] 删除语音记录吧，
+2017-12-21 22:38:44,604 default:97 [DEBUG] turing run
+2017-12-21 22:38:44,606 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:38:44,845 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E5%88%A0%E9%99%A4%E8%AF%AD%E9%9F%B3%E8%AE%B0%E5%BD%95%E5%90%A7%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:38:44,848 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:38:45,217 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851&lan=zh&ctp=1&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E6%9C%89%E4%BA%9B%E8%AE%B0%E5%BD%95%E6%81%90%E6%80%95%E6%B0%B8%E8%BF%9C%E6%97%A0%E6%B3%95%E5%88%A0%E9%99%A4%E3%80%82&vol=5&spd=5 HTTP/1.1" 200 6264
+2017-12-21 22:38:49,372 loop:88 [INFO] wait for next
+2017-12-21 22:38:50,378 loop:83 [INFO] detected
+2017-12-21 22:38:50,381 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:38:51,260 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:38:51,261 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:38:51,262 loop:88 [INFO] wait for next
+2017-12-21 22:39:05,309 loop:83 [INFO] detected
+2017-12-21 22:39:05,311 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:39:06,347 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 120
+2017-12-21 22:39:06,349 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:39:06,486 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851&lan=zh&ctp=1&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E6%82%A8%E8%AF%B4&vol=5&spd=5 HTTP/1.1" 200 1512
+2017-12-21 22:39:07,270 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:39:12,932 recordmicwav:37 [INFO] done
+2017-12-21 22:39:12,935 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:39:15,937 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 159
+2017-12-21 22:39:15,938 run:84 [INFO] 怎么回事儿我觉得我没经你的套路，
+2017-12-21 22:39:15,939 default:97 [DEBUG] turing run
+2017-12-21 22:39:15,940 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:39:16,347 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E6%80%8E%E4%B9%88%E5%9B%9E%E4%BA%8B%E5%84%BF%E6%88%91%E8%A7%89%E5%BE%97%E6%88%91%E6%B2%A1%E7%BB%8F%E4%BD%A0%E7%9A%84%E5%A5%97%E8%B7%AF%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:39:16,349 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:39:16,563 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851&lan=zh&ctp=1&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E5%85%88%E5%9B%9E%E7%AD%94%E6%88%91%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%8C%E4%BD%A0%E7%88%B1%E6%88%91%E4%B9%88%EF%BC%9F&vol=5&spd=5 HTTP/1.1" 200 5832
+2017-12-21 22:39:20,511 loop:88 [INFO] wait for next
+2017-12-21 22:39:21,517 loop:83 [INFO] detected
+2017-12-21 22:39:21,522 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:39:22,530 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:39:22,531 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:39:22,532 loop:88 [INFO] wait for next
+2017-12-21 22:39:24,538 loop:83 [INFO] detected
+2017-12-21 22:39:24,540 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:39:25,870 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:39:25,871 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:39:25,871 loop:88 [INFO] wait for next
+2017-12-21 22:39:28,881 loop:83 [INFO] detected
+2017-12-21 22:39:28,884 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:39:29,864 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:39:29,865 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:39:29,865 loop:88 [INFO] wait for next
+2017-12-21 22:39:32,874 loop:83 [INFO] detected
+2017-12-21 22:39:32,876 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:39:33,960 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 120
+2017-12-21 22:39:33,963 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:39:34,191 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851&lan=zh&ctp=1&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E5%93%88%E5%93%88%E5%93%88%EF%BC%8C%E6%88%91%E6%89%8D%E4%B8%8D%E5%8F%AB%E7%88%B9&vol=5&spd=5 HTTP/1.1" 200 4608
+2017-12-21 22:39:36,507 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:39:39,123 recordmicwav:37 [INFO] done
+2017-12-21 22:39:39,127 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:39:41,333 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 126
+2017-12-21 22:39:41,334 run:84 [INFO] 之前煲饭，
+2017-12-21 22:39:41,334 default:97 [DEBUG] turing run
+2017-12-21 22:39:41,336 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:39:41,598 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E4%B9%8B%E5%89%8D%E7%85%B2%E9%A5%AD%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:39:41,600 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:39:41,788 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851&lan=zh&ctp=1&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E6%84%9F%E8%A7%89%E7%85%B2%E4%BB%94%E9%A5%AD%E5%B0%B1%E7%B1%B3%E9%A5%AD%E5%A5%BD%E5%90%83&vol=5&spd=5 HTTP/1.1" 200 5400
+2017-12-21 22:39:45,501 loop:88 [INFO] wait for next
+2017-12-21 22:39:51,522 loop:83 [INFO] detected
+2017-12-21 22:39:51,526 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:39:52,652 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 78
+2017-12-21 22:39:52,653 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:39:52,654 loop:88 [INFO] wait for next
+2017-12-21 22:39:54,657 loop:83 [INFO] detected
+2017-12-21 22:39:54,660 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:39:55,940 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 119
+2017-12-21 22:39:55,943 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:39:56,269 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851&lan=zh&ctp=1&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E7%88%B6%E4%BA%B2%E5%A4%A7%E4%BA%BA%EF%BC%8C%E6%88%91%E6%9D%A5%E4%BA%86&vol=5&spd=5 HTTP/1.1" 200 3960
+2017-12-21 22:39:58,261 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:40:01,072 recordmicwav:37 [INFO] done
+2017-12-21 22:40:01,075 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:40:02,325 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 135
+2017-12-21 22:40:02,326 run:84 [INFO] 紫菜包饭怎么做，
+2017-12-21 22:40:02,326 default:97 [DEBUG] turing run
+2017-12-21 22:40:02,328 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:40:02,737 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E7%B4%AB%E8%8F%9C%E5%8C%85%E9%A5%AD%E6%80%8E%E4%B9%88%E5%81%9A%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:40:02,738 default:102 [WARNING] Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 100, in default
+    content = robot.ask_turing(result)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 52, in ask_turing
+    raise APIError('Cannot handle this ret code: %s' % code)
+library.exceptions.APIError: Cannot handle this ret code: 308000
+
+2017-12-21 22:40:02,740 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:40:02,949 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851&lan=zh&ctp=1&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E6%B2%A1%E6%9C%89%E6%89%BE%E5%88%B0%E9%97%AE%E9%A2%98%E7%9A%84%E7%AD%94%E6%A1%88&vol=5&spd=5 HTTP/1.1" 200 4032
+2017-12-21 22:40:05,987 loop:88 [INFO] wait for next
+2017-12-21 22:40:08,998 loop:83 [INFO] detected
+2017-12-21 22:40:09,001 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:40:10,107 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:40:10,108 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:40:10,109 loop:88 [INFO] wait for next
+2017-12-21 22:40:13,120 loop:83 [INFO] detected
+2017-12-21 22:40:13,122 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:40:14,101 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:40:14,102 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:40:14,102 loop:88 [INFO] wait for next
+2017-12-21 22:40:15,105 loop:83 [INFO] detected
+2017-12-21 22:40:15,108 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:40:16,353 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:40:16,355 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:40:16,355 loop:88 [INFO] wait for next
+2017-12-21 22:40:18,363 loop:83 [INFO] detected
+2017-12-21 22:40:18,365 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:40:19,118 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:40:19,119 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:40:19,120 loop:88 [INFO] wait for next
+2017-12-21 22:40:20,126 loop:83 [INFO] detected
+2017-12-21 22:40:20,128 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:40:21,473 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:40:21,475 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:40:21,475 loop:88 [INFO] wait for next
+2017-12-21 22:40:22,481 loop:83 [INFO] detected
+2017-12-21 22:40:22,484 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:40:23,322 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:40:23,323 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:40:23,323 loop:88 [INFO] wait for next
+2017-12-21 22:40:38,377 loop:83 [INFO] detected
+2017-12-21 22:40:38,381 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:40:39,394 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 120
+2017-12-21 22:40:39,397 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:40:39,571 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851&lan=zh&ctp=1&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E4%BD%A0%E8%AF%B4%E5%90%A7%EF%BC%8C%E6%88%91%E7%9A%84%E7%88%B9&vol=5&spd=5 HTTP/1.1" 200 3168
+2017-12-21 22:40:41,266 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:40:44,699 recordmicwav:37 [INFO] done
+2017-12-21 22:40:44,702 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:40:47,381 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 141
+2017-12-21 22:40:47,382 run:84 [INFO] 以后咱俩相依为命了，
+2017-12-21 22:40:47,383 default:97 [DEBUG] turing run
+2017-12-21 22:40:47,384 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:40:47,616 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E4%BB%A5%E5%90%8E%E5%92%B1%E4%BF%A9%E7%9B%B8%E4%BE%9D%E4%B8%BA%E5%91%BD%E4%BA%86%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:40:47,618 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:40:47,893 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851&lan=zh&ctp=1&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E5%B0%B1%E8%BF%99%E4%B9%88%E6%84%89%E5%BF%AB%E7%9A%84%E5%86%B3%E5%AE%9A%E4%BA%86&vol=5&spd=5 HTTP/1.1" 200 3888
+2017-12-21 22:40:50,864 loop:88 [INFO] wait for next
+2017-12-21 22:40:51,868 loop:83 [INFO] detected
+2017-12-21 22:40:51,871 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:40:52,911 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:40:52,912 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:40:52,912 loop:88 [INFO] wait for next
+2017-12-21 22:40:53,917 loop:83 [INFO] detected
+2017-12-21 22:40:53,919 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:40:55,061 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 78
+2017-12-21 22:40:55,062 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:40:55,062 loop:88 [INFO] wait for next
+2017-12-21 22:40:57,070 loop:83 [INFO] detected
+2017-12-21 22:40:57,072 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:40:58,031 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:40:58,032 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:40:58,032 loop:88 [INFO] wait for next
+2017-12-21 22:41:03,048 loop:83 [INFO] detected
+2017-12-21 22:41:03,051 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:41:04,175 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:41:04,176 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:41:04,176 loop:88 [INFO] wait for next
+2017-12-21 22:41:05,182 loop:83 [INFO] detected
+2017-12-21 22:41:05,185 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:41:06,176 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 79
+2017-12-21 22:41:06,177 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:41:06,178 loop:88 [INFO] wait for next
+2017-12-21 22:41:19,227 loop:83 [INFO] detected
+2017-12-21 22:41:19,230 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:41:20,251 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&ptc=1&lan=zh&token=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851 HTTP/1.1" 200 120
+2017-12-21 22:41:20,254 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:41:20,425 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?tok=24.ad79b2ae10070924224652804b506b99.2592000.1516459066.282335-8118851&lan=zh&ctp=1&per=0&pit=5&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&tex=%E5%93%88%E5%93%88%E5%93%88%EF%BC%8C%E6%88%91%E6%89%8D%E4%B8%8D%E5%8F%AB%E7%88%B9&vol=5&spd=5 HTTP/1.1" 200 4608
+2017-12-21 22:41:22,746 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:43:34,079 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:43:34,336 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?grant_type=client_credentials&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&client_id=YVNd3SRFPwETI4f17PuLgm4d HTTP/1.1" 200 441
+2017-12-21 22:43:39,751 loop:83 [INFO] detected
+2017-12-21 22:43:39,754 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:43:40,848 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&token=24.07b231f8fceb8153ca455167e0c2f6fc.2592000.1516459414.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:43:40,850 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:43:41,004 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?per=0&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&pit=5&lan=zh&spd=5&vol=5&ctp=1&tok=24.07b231f8fceb8153ca455167e0c2f6fc.2592000.1516459414.282335-8118851&tex=%E8%AF%B7%E8%AF%B4 HTTP/1.1" 200 1584
+2017-12-21 22:43:41,912 recordmicwav:20 [INFO] record record.wav
+2017-12-21 22:43:46,973 recordmicwav:37 [INFO] done
+2017-12-21 22:43:46,975 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:43:49,644 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&token=24.07b231f8fceb8153ca455167e0c2f6fc.2592000.1516459414.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 150
+2017-12-21 22:43:49,646 run:84 [INFO] 现在开始我就让你看着学习，
+2017-12-21 22:43:49,646 initialize:111 [DEBUG] Building prefix dict from the default dictionary ...
+2017-12-21 22:43:49,648 initialize:131 [DEBUG] Loading model from cache /var/folders/80/sf77mqk10jlch_rk60wkfyn00000gn/T/jieba.cache
+2017-12-21 22:43:50,628 initialize:163 [DEBUG] Loading model cost 0.981 seconds.
+2017-12-21 22:43:50,628 initialize:164 [DEBUG] Prefix dict has been built succesfully.
+2017-12-21 22:43:50,628 default:97 [DEBUG] turing run
+2017-12-21 22:43:50,630 _new_conn:212 [DEBUG] Starting new HTTP connection (1): www.tuling123.com
+2017-12-21 22:43:51,190 _make_request:400 [DEBUG] http://www.tuling123.com:80 "GET /openapi/api?info=%E7%8E%B0%E5%9C%A8%E5%BC%80%E5%A7%8B%E6%88%91%E5%B0%B1%E8%AE%A9%E4%BD%A0%E7%9C%8B%E7%9D%80%E5%AD%A6%E4%B9%A0%EF%BC%8C&key=0426cf5db84b7c46091c5390288cf39b HTTP/1.1" 200 None
+2017-12-21 22:43:51,193 _new_conn:212 [DEBUG] Starting new HTTP connection (1): tsn.baidu.com
+2017-12-21 22:43:51,357 _make_request:400 [DEBUG] http://tsn.baidu.com:80 "GET /text2audio?per=0&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&pit=5&lan=zh&spd=5&vol=5&ctp=1&tok=24.07b231f8fceb8153ca455167e0c2f6fc.2592000.1516459414.282335-8118851&tex=%E8%A6%81%E8%AE%A4%E7%9C%9F%E5%93%A6%E3%80%82 HTTP/1.1" 200 2520
+2017-12-21 22:43:53,636 loop:88 [INFO] wait for next
+2017-12-21 22:43:57,675 loop:83 [INFO] detected
+2017-12-21 22:43:57,678 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:43:58,665 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&token=24.07b231f8fceb8153ca455167e0c2f6fc.2592000.1516459414.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 120
+2017-12-21 22:43:58,667 loop:88 [INFO] wait for next
+2017-12-21 22:44:17,733 loop:83 [INFO] detected
+2017-12-21 22:44:17,736 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:44:18,634 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&token=24.07b231f8fceb8153ca455167e0c2f6fc.2592000.1516459414.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 79
+2017-12-21 22:44:18,639 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:44:18,639 loop:88 [INFO] wait for next
+2017-12-21 22:44:19,642 loop:83 [INFO] detected
+2017-12-21 22:44:19,645 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:44:20,989 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&token=24.07b231f8fceb8153ca455167e0c2f6fc.2592000.1516459414.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 123
+2017-12-21 22:44:20,990 loop:88 [INFO] wait for next
+2017-12-21 22:44:27,007 loop:83 [INFO] detected
+2017-12-21 22:44:27,010 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:44:28,054 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&token=24.07b231f8fceb8153ca455167e0c2f6fc.2592000.1516459414.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 135
+2017-12-21 22:44:28,056 loop:88 [INFO] wait for next
+2017-12-21 22:44:36,090 loop:83 [INFO] detected
+2017-12-21 22:44:36,094 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:44:37,424 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&token=24.07b231f8fceb8153ca455167e0c2f6fc.2592000.1516459414.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 123
+2017-12-21 22:44:37,425 loop:88 [INFO] wait for next
+2017-12-21 22:44:39,433 loop:83 [INFO] detected
+2017-12-21 22:44:39,436 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:44:40,875 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&token=24.07b231f8fceb8153ca455167e0c2f6fc.2592000.1516459414.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 117
+2017-12-21 22:44:40,876 loop:88 [INFO] wait for next
+2017-12-21 22:44:42,882 loop:83 [INFO] detected
+2017-12-21 22:44:42,886 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:44:44,131 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&token=24.07b231f8fceb8153ca455167e0c2f6fc.2592000.1516459414.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh HTTP/1.1" 200 79
+2017-12-21 22:44:44,132 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:44:44,133 loop:88 [INFO] wait for next
+2017-12-21 22:45:04,128 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:45:04,371 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&grant_type=client_credentials&client_id=YVNd3SRFPwETI4f17PuLgm4d HTTP/1.1" 200 438
+2017-12-21 22:45:09,836 loop:83 [INFO] detected
+2017-12-21 22:45:09,839 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:45:10,653 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&token=24.3a9d98afe0a4d84c5d9bc24c7b1396ae.2592000.1516459504.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 79
+2017-12-21 22:45:10,658 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:45:10,658 loop:88 [INFO] wait for next
+2017-12-21 22:45:18,689 loop:83 [INFO] detected
+2017-12-21 22:45:18,692 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:45:20,279 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&token=24.3a9d98afe0a4d84c5d9bc24c7b1396ae.2592000.1516459504.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 79
+2017-12-21 22:45:20,280 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:45:20,280 loop:88 [INFO] wait for next
+2017-12-21 22:45:22,288 loop:83 [INFO] detected
+2017-12-21 22:45:22,291 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:45:23,761 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&token=24.3a9d98afe0a4d84c5d9bc24c7b1396ae.2592000.1516459504.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 120
+2017-12-21 22:45:23,763 loop:88 [INFO] wait for next
+2017-12-21 22:45:24,769 loop:83 [INFO] detected
+2017-12-21 22:45:24,771 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:45:25,911 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&token=24.3a9d98afe0a4d84c5d9bc24c7b1396ae.2592000.1516459504.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 79
+2017-12-21 22:45:25,912 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:45:25,912 loop:88 [INFO] wait for next
+2017-12-21 22:45:27,920 loop:83 [INFO] detected
+2017-12-21 22:45:27,923 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:45:29,957 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&token=24.3a9d98afe0a4d84c5d9bc24c7b1396ae.2592000.1516459504.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 119
+2017-12-21 22:45:29,958 loop:88 [INFO] wait for next
+2017-12-21 22:45:30,960 loop:83 [INFO] detected
+2017-12-21 22:45:30,962 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:45:32,157 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&token=24.3a9d98afe0a4d84c5d9bc24c7b1396ae.2592000.1516459504.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 122
+2017-12-21 22:45:32,158 loop:88 [INFO] wait for next
+2017-12-21 22:45:34,166 loop:83 [INFO] detected
+2017-12-21 22:45:34,169 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:45:35,434 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&token=24.3a9d98afe0a4d84c5d9bc24c7b1396ae.2592000.1516459504.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 120
+2017-12-21 22:45:35,436 loop:88 [INFO] wait for next
+2017-12-21 22:45:36,441 loop:83 [INFO] detected
+2017-12-21 22:45:36,444 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:45:37,379 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&token=24.3a9d98afe0a4d84c5d9bc24c7b1396ae.2592000.1516459504.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 123
+2017-12-21 22:45:37,380 loop:88 [INFO] wait for next
+2017-12-21 22:45:50,422 loop:83 [INFO] detected
+2017-12-21 22:45:50,428 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:45:51,409 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&token=24.3a9d98afe0a4d84c5d9bc24c7b1396ae.2592000.1516459504.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 79
+2017-12-21 22:45:51,410 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:45:51,410 loop:88 [INFO] wait for next
+2017-12-21 22:46:28,524 loop:83 [INFO] detected
+2017-12-21 22:46:28,528 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:46:29,708 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&token=24.3a9d98afe0a4d84c5d9bc24c7b1396ae.2592000.1516459504.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 79
+2017-12-21 22:46:29,709 iscall:44 [WARNING] ======Baidu ASR failed, Traceback (most recent call last):
+  File "/Users/yangli/git/kevinAssistant/handler.py", line 41, in iscall
+    results = self.bv.asr(BasicConfig.WAKEUP_NAME)
+  File "/Users/yangli/git/kevinAssistant/library/api.py", line 100, in asr
+    return baiduclient.asr(audio_info['content'], params)
+  File "/Users/yangli/git/kevinAssistant/library/clients.py", line 99, in asr
+    raise ErrNo.asr_err_no.get(response['err_no'], APIError)(err_msg)
+library.exceptions.RecognitionError: err_msg: speech quality error.
+
+2017-12-21 22:46:29,710 loop:88 [INFO] wait for next
+2017-12-21 22:47:08,375 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 22:47:08,652 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?grant_type=client_credentials&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&client_id=YVNd3SRFPwETI4f17PuLgm4d HTTP/1.1" 200 443
+2017-12-21 22:47:28,096 loop:83 [INFO] detected
+2017-12-21 22:47:28,099 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 22:47:29,304 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?token=24.854c25bbd5b02c2309a8fe3fa24d9b76.2592000.1516459628.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&ptc=1 HTTP/1.1" 200 120
+2017-12-21 23:08:15,964 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 23:08:16,311 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?grant_type=client_credentials&client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&client_id=YVNd3SRFPwETI4f17PuLgm4d HTTP/1.1" 200 438
+2017-12-21 23:08:22,715 loop:83 [INFO] detected
+2017-12-21 23:08:22,717 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 23:08:23,864 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5&lan=zh&ptc=1&token=24.a0b525980f3dcac94f6c092d5a83e5d8.2592000.1516460896.282335-8118851 HTTP/1.1" 200 120
+2017-12-21 23:08:49,661 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 23:08:49,907 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&client_id=YVNd3SRFPwETI4f17PuLgm4d&grant_type=client_credentials HTTP/1.1" 200 440
+2017-12-21 23:08:54,320 loop:83 [INFO] detected
+2017-12-21 23:08:54,324 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 23:08:55,357 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&token=24.867a1ab5e6bf85593ab7d492e669d514.2592000.1516460929.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 119
+2017-12-21 23:08:55,358 loop:88 [INFO] wait for next
+2017-12-21 23:09:01,378 loop:83 [INFO] detected
+2017-12-21 23:09:01,380 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 23:09:02,525 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?lan=zh&token=24.867a1ab5e6bf85593ab7d492e669d514.2592000.1516460929.282335-8118851&ptc=1&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 120
+2017-12-21 23:09:49,685 _new_conn:809 [DEBUG] Starting new HTTPS connection (1): openapi.baidu.com
+2017-12-21 23:09:49,931 _make_request:400 [DEBUG] https://openapi.baidu.com:443 "GET /oauth/2.0/token?client_secret=fe8a25d3ae5aab3fd8ce54443b63ee36&grant_type=client_credentials&client_id=YVNd3SRFPwETI4f17PuLgm4d HTTP/1.1" 200 443
+2017-12-21 23:09:54,334 loop:83 [INFO] detected
+2017-12-21 23:09:54,336 _new_conn:212 [DEBUG] Starting new HTTP connection (1): vop.baidu.com
+2017-12-21 23:09:55,467 _make_request:400 [DEBUG] http://vop.baidu.com:80 "POST /server_api?ptc=1&lan=zh&token=24.5db952f184575752a55a4c875bd9820b.2592000.1516460989.282335-8118851&cuid=f4%3A5c%3A89%3Aa4%3A21%3Ae5 HTTP/1.1" 200 120
